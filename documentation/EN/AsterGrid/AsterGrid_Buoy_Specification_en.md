@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![logo](/documentation/logo.svg) |  |
+| ![Trackdyne](/documentation/logo.png) |  |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **AsterGrid Buoy** - GNSS-equipped sonobuoy <br/> Device specification |
 

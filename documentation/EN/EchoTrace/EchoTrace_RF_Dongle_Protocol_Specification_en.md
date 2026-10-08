@@ -7,7 +7,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![logo](/documentation/logo.svg) | ![EchoTrace RF dongle](/documentation/echotrace_rf_dongle.png) |
+| ![Trackdyne](/documentation/logo.png) | ![EchoTrace RF dongle](/documentation/echotrace_rf_dongle.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **EchoTrace RF Dongle** - navigation solver/radio modem for EchoTrace system <br/> Communication protocol |
   

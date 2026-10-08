@@ -1,4 +1,4 @@
-| ![logo](/documentation/logo.svg) |  |
+| ![Trackdyne](/documentation/logo.png) |  |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Tag** Responder-beacon <br/> Wiring diagram and drawings |
 
