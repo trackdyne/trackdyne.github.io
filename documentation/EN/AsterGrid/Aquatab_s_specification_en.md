@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![logo](/documentation/logo.svg) | ![logo](https://duslate.com/upload/content-images/primary/aquatab-s.png) |
+| ![Trackdyne](/documentation/logo.png) | ![logo](https://duslate.com/upload/content-images/primary/aquatab-s.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **[Aquatab S](https://duslate.com/products/aquatab-s/)** - Diver's navigation tablet <br/> Device specification |
 

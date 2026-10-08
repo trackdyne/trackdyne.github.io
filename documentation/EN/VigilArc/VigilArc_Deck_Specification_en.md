@@ -1,6 +1,6 @@
 [Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en) ❯ **VigilArc Deck: Device specification**
 
-| ![logo](/documentation/logo.svg) |  |
+| ![Trackdyne](/documentation/logo.png) |  |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Deck** - Autonomous power supply and interfacing unit <br/> Device specification |
 

@@ -1,6 +1,6 @@
 [Main](/README.md) ❯ **Underwater acoustic modems**
 
-| ![logo](/documentation/logo.svg) |
+| ![Trackdyne](/documentation/logo.png) |
 | :---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
 ## Underwater acoustic modems

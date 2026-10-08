@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![logo](/documentation/logo.svg) | ![EchoTrace GIB](/documentation/echotrace_gib_h_small.png) |
+| ![Trackdyne](/documentation/logo.png) | ![EchoTrace GIB](/documentation/echotrace_gib_h_small.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **EchoTrace GIB** - Navigation buoy <br/> Device specification |
 

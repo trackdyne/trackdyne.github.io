@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![logo](/documentation/logo.svg) | ![logo](/documentation/vigilarc_tag.png) |
+| ![Trackdyne](/documentation/logo.png) | ![logo](/documentation/vigilarc_tag.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Tag** - **VigilArc USBL** responder beacon <br/> Device specification |
 

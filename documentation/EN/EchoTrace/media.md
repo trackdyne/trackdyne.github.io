@@ -1,6 +1,6 @@
 [Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en) ❯ **EchoTrace: tracks, videos, tutorials, etc.**
 
-| ![logo](/documentation/logo.svg) |
+| ![Trackdyne](/documentation/logo.png) |
 | :---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
 ## EchoTrace media: videos, tracks, etc.

@@ -1,6 +1,6 @@
 [Main](/README.md) ❯ **Underwater Wireless voice systems (Underwater telephone)**
 
-| ![logo](/documentation/logo.svg) |
+| ![Trackdyne](/documentation/logo.png) |
 | :---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
 ## Underwater Wireless voice systems (Underwater telephone)

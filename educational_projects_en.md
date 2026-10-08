@@ -1,6 +1,6 @@
 [Main](/README.md) ❯ **Our educational projects**
 
-| ![logo](/documentation/logo.svg) |
+| ![Trackdyne](/documentation/logo.png) |
 | :---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
 ## Our projects for education

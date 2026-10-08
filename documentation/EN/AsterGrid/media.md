@@ -1,6 +1,6 @@
 [Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en) ❯ **AsterGrid: tracks**
 
-| ![logo](/documentation/logo.svg) |
+| ![Trackdyne](/documentation/logo.png) |
 | :---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
 ## AsterGrid media: tracks

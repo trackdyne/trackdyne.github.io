@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![logo](/documentation/logo.svg) | ![qr](/documentation/AsterGrid_Buoy_v3_LiFEPO4_msds_en_qr.png)  |
+| ![Trackdyne](/documentation/logo.png) | ![qr](/documentation/AsterGrid_Buoy_v3_LiFEPO4_msds_en_qr.png)  |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | LiFePO4 battery pack <br/> as part of AsterGrid Buoy/EchoTrace GIB (v3) PMVR.467154.077 <br/> Material safety datasheet |
 | | Version 1 <br/> 27.09.2023 |
