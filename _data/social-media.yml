@@ -1,0 +1,14 @@
+email:
+  id: 'support@trackdyne.com'
+  href: 'mailto:'
+  title: 'Email'
+
+github:
+  id: 'trackdyne'
+  href: 'https://github.com/'
+  title: 'GitHub'
+
+youtube:
+  id: '@trackdyne'
+  href: 'https://www.youtube.com/'
+  title: 'YouTube'
