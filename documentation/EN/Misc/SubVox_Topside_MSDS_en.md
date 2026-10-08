@@ -27,10 +27,12 @@
 
 ### Details of the supplier of the safety data sheet
 
-| |
-| :--- |
-| Limited Liability Company "Seaguild Electronic Precision Instruments Trading" |
-| Mailing address: Office No 403-404, Dubai Hills Estate Retail - Sheikh Mohammed Bin Rashid Gardens, Dubai, UAE |
+<table>
+<tbody>
+<tr><td align="left" markdown="span">Limited Liability Company "Seaguild Electronic Precision Instruments Trading"</td></tr>
+<tr><td align="left" markdown="span">Mailing address: Office No 403-404, Dubai Hills Estate Retail - Sheikh Mohammed Bin Rashid Gardens, Dubai, UAE</td></tr>
+</tbody>
+</table>
 
 | | |
 | :--- | :--- |
@@ -345,9 +347,12 @@ The information contained in this material safety data sheet corresponds to the 
 <br/>
 <br/>
 
-| `________________________ / ________________________________________` |
-| :--- |
-| `" ____ " ________________ 20 ____ ` |
+<table>
+<thead><tr><th align="left" markdown="span">`________________________ / ________________________________________`</th></tr></thead>
+<tbody>
+<tr><td align="left" markdown="span">`" ____ " ________________ 20 ____ `</td></tr>
+</tbody>
+</table>
 
 <br/>
 <br/>  

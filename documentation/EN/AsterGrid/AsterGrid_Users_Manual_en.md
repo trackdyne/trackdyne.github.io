@@ -75,11 +75,13 @@ Buoys are to located in the water area on the water surface, their position is f
 
 **Figure 2** <sup>[1](#footnote1)</sup> shows the recommended deployment scheme for a buoy in a water body.
 
-| |
-| :---: |
-| ![AsterGrid Buoy deployment scheme](/documentation/def_astergrid_buoy_dep_scheme.png)|
-| **Figure 2 - [AsterGrid Buoy](AsterGrid_Buoy_Specification_en.md) recommended deployment scheme** |
-| _1 - GNSS-equipped sonobuoy [AsterGrid Buoy](AsterGrid_Buoy_Specification_en.md), 2 - additional weight<sup>[2](#footnote2)</sup>, 3 - float, 4 - anchor rope, 5 - anchor_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Buoy deployment scheme](/documentation/def_astergrid_buoy_dep_scheme.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 2 - [AsterGrid Buoy](AsterGrid_Buoy_Specification_en.md) recommended deployment scheme**</td></tr>
+<tr><td align="center" markdown="span">_1 - GNSS-equipped sonobuoy [AsterGrid Buoy](AsterGrid_Buoy_Specification_en.md), 2 - additional weight<sup>[2](#footnote2)</sup>, 3 - float, 4 - anchor rope, 5 - anchor_</td></tr>
+</tbody>
+</table>
 
 __________
 <a name="footnote1"><sup>1</sup></a>Images may vary slightly from supplied products.
@@ -88,11 +90,13 @@ as the manufacturer is constantly working to improve the performance and make de
 
 **Figure 3** shows the location of the controls and indicators on the buoy cover.
 
-| |
-| :---: |
-| ![AsterGrid Buoy deployment scheme](/documentation/def_astergrid_buoy_cover_scheme.png)|
-| **Figure 3 - Controls and indicators on the cover of [AsterGrid Buoy](AsterGrid_Buoy_Specification_en.md)** |
-| _1 - power toggle switch, 2 - indicator lights, 3 - charging connector_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Buoy deployment scheme](/documentation/def_astergrid_buoy_cover_scheme.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 3 - Controls and indicators on the cover of [AsterGrid Buoy](AsterGrid_Buoy_Specification_en.md)**</td></tr>
+<tr><td align="center" markdown="span">_1 - power toggle switch, 2 - indicator lights, 3 - charging connector_</td></tr>
+</tbody>
+</table>
 
 #### 2.1.2. Operating modes and light indication
 The buoys in each set have different numbers (addresses) from 1 to 4. When a buoy is turned on using the toggle switch 4 (see **Figure 3**), the buoy through **indicator 2** reports its number in the set: the number of flashes corresponds to the number of the buoy.
@@ -181,30 +185,36 @@ The appearance of the device screen in navigation mode immediately after switchi
 
 > _**ATTENTION!**_ Immediately after switching on, the device calibrates atmospheric pressure for **10 seconds** to more accurately determine the depth. Therefore, turning on the device is recommended only in the air. If at startup the hydrostatic pressure exceeds **1100 mbar**, then atmospheric pressure calibration is not performed, and the standard value **1013.25 mbar** is taken as atmospheric pressure.
 
-|  |
-| :---: |
-| ![AsterGrid Nav after start](/documentation/astergrid_nav_scr1.png) |
-| **Figure 5 - Main screen in navigation mode** |
-| _After start up_ |
-| _1 - Left button function (target switch), 2 - buoys status, 3 - azimuth and distance to target, 4 - right button function (mark current position), 5 - water temperature, 6 - depth (distance to the water surface), 7 - battery charge_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav after start](/documentation/astergrid_nav_scr1.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 5 - Main screen in navigation mode**</td></tr>
+<tr><td align="center" markdown="span">_After start up_</td></tr>
+<tr><td align="center" markdown="span">_1 - Left button function (target switch), 2 - buoys status, 3 - azimuth and distance to target, 4 - right button function (mark current position), 5 - water temperature, 6 - depth (distance to the water surface), 7 - battery charge_</td></tr>
+</tbody>
+</table>
 
 When buoy signals are not received (for example, immediately after switching on), the azimuth and distance to the target are not displayed on the screen, because the geographic location of the navigation receiver is either unknown or obviously out of date. Button functions are also not available in this case.
 **Figure 6** illustrates the situation when the navigation receiver received a signal from the first buoy, but its own location has not yet been determined.
 It is worth remembering that the transmission of buoy signals is time-divided, and the receiver awaits their signals sequentially. Accordingly, if the reception of the 1st buoy does not occur, then the reception of the 2nd is not conducted, etc.  
 
-|  |
-| :---: |
-| ![AsterGrid Nav after start](/documentation/astergrid_nav_scr2.png) |
-| **Figure 6 - The main screen of the device during operation** |
-| _Device has received signal from Buoy No. 1. Own location has not been determined yet_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav after start](/documentation/astergrid_nav_scr2.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 6 - The main screen of the device during operation**</td></tr>
+<tr><td align="center" markdown="span">_Device has received signal from Buoy No. 1. Own location has not been determined yet_</td></tr>
+</tbody>
+</table>
 
 When signals from all buoys are received and the coordinates of the navigation receiver are updated, the main screen has the form, as in **Figure 7**. For example, buoys with numbers **2** and **4** have a low charge of the built-in power supply, therefore, they are displayed as open squares with colour inversion. Buoy **No. 1** is selected as the navigation target and its icon is displayed enlarged.
 
-|  |
-| :---: |
-| ![AsterGrid Nav](/documentation/astergrid_nav_scr3.png) |
-| **Figure 7 - The main screen of the device during operation** |
-| _Location determined. The buoy No. 1_ was chosen as the navigation target |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav](/documentation/astergrid_nav_scr3.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 7 - The main screen of the device during operation**</td></tr>
+<tr><td align="center" markdown="span">_Location determined. The buoy No. 1_ was chosen as the navigation target</td></tr>
+</tbody>
+</table>
 
 In the **3** field (see **Figure 5**) **Azimuth and distance to the target** *Azimuth* and *distance* to the selected buoy are displayed. By *azimuth* here we mean *the angular direction from the northern half-meridian clockwise to the line to the target*.
 
@@ -214,42 +224,52 @@ When the location is determined (azimuth and distance to the selected target are
 
 When the user presses the right button (**+**), the current location is saved separately (the marked point is saved), which is placed at the end of the target list. An informational message is displayed, as in **Figure 8**.
 
-|  |
-| :---: |
-| ![AsterGrid Nav](/documentation/astergrid_nav_scr3a_en.png) |
-| **Figure 8 - Message confirming that the current location has been saved** |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav](/documentation/astergrid_nav_scr3a_en.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 8 - Message confirming that the current location has been saved**</td></tr>
+</tbody>
+</table>
 
 The preloaded and marked points are numbered, and when the user selects them as targets using the (**>**) button, they are displayed as in **Figure 9**.
 
-|  |
-| :---: |
-| ![AsterGrid Nav](/documentation/astergrid_nav_scr4.png) |
-| **Figure 9 - The main screen of the device during operation** |
-| _The first waypoint/marked point is selected as a navigation target_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav](/documentation/astergrid_nav_scr4.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 9 - The main screen of the device during operation**</td></tr>
+<tr><td align="center" markdown="span">_The first waypoint/marked point is selected as a navigation target_</td></tr>
+</tbody>
+</table>
 
 To turn off the device, the user must simultaneously press both buttons. In this case, the device will ask for confirmation of shutdown, as shown in **Figure 10**.
 
-|  |
-| :---: |
-| ![AsterGrid Nav](/documentation/astergrid_nav_scr5_en.png) |
-| **Figure 10 - Shutdown confirmation** |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav](/documentation/astergrid_nav_scr5_en.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 10 - Shutdown confirmation**</td></tr>
+</tbody>
+</table>
 
 ##### 2.3.2.2. Service mode
 When the interface unit is installed on the charging pad, it switches into service mode. In this mode, the built-in power supply is charged and the device configuration is possible. **Figures 11 and 12** show the device screen after installation on the charging pad. The state of charge and wireless connection are displayed by the brightness of the corresponding icons.
 
 It should be remembered that the charging platform must contact directly with the housing of the interface unit. If a belt is attached to the interface unit, it should be pulled back and a charging pad placed between the interface unit housing and the belt. Otherwise, the distance between the transmitter of the charger and the receiver inside the housing of the interface unit will be too far to provide the required charging current.
 
-|  |
-| :---: |
-| ![AsterGrid Nav](/documentation/astergrid_nav_scr6.png) |
-| **Figure 11 - Screen view of the device in service mode** |
-| _The charging icon lights up brightly - the charge is on, the Bluetooth icon is darkened - the connection is not established_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav](/documentation/astergrid_nav_scr6.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 11 - Screen view of the device in service mode**</td></tr>
+<tr><td align="center" markdown="span">_The charging icon lights up brightly - the charge is on, the Bluetooth icon is darkened - the connection is not established_</td></tr>
+</tbody>
+</table>
 
-|  |
-| :---: |
-| ![AsterGrid Nav](/documentation/astergrid_nav_scr7.png) |
-| **Figure 12 - Screen view of the device in service mode** |
-| _Both icons glow brightly - the charge is on, a Bluetooth connection is established_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Nav](/documentation/astergrid_nav_scr7.png)</td></tr>
+<tr><td align="center" markdown="span">**Figure 12 - Screen view of the device in service mode**</td></tr>
+<tr><td align="center" markdown="span">_Both icons glow brightly - the charge is on, a Bluetooth connection is established_</td></tr>
+</tbody>
+</table>
 
 When the device is on the charging platform, after **5 minutes** inactivity, the screen turns off in order to save energy and charge the built-in power supply faster. Pressing any button on the interface device again turns on the screen.
 

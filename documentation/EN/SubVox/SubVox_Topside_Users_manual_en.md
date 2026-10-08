@@ -51,10 +51,13 @@ The built-in power supply made of **LiFePO4** batteries that operate at low temp
 The dashboard of the device is made of high-quality stainless steel, on which, using laser engraving, are applied informational inscriptions.
 **Figure 2** shows the location of the controls and connectors.
 
-| ![SubVox Topside top panel scheme](/documentation/subvox_topside_top_panel_scheme_en.png) |
-| :---: |
-| **Figure 2 - Location of controls and connectors** |
-| _1 - charger connector, 2 - speaker grill, 3 - transducer connector, 4 - volume control, 5 - channel switch, 6 - device toggle switch, 7 - speaker switch, 8 - microphone and PTT connector, 9 - headphone connector_ |
+<table>
+<thead><tr><th align="center" markdown="span">![SubVox Topside top panel scheme](/documentation/subvox_topside_top_panel_scheme_en.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">**Figure 2 - Location of controls and connectors**</td></tr>
+<tr><td align="center" markdown="span">_1 - charger connector, 2 - speaker grill, 3 - transducer connector, 4 - volume control, 5 - channel switch, 6 - device toggle switch, 7 - speaker switch, 8 - microphone and PTT connector, 9 - headphone connector_</td></tr>
+</tbody>
+</table>
 
 ### 1.3. Specifications
 The station uses single-band amplitude modulation (_SSB, Single side band_) and supports the bands most commonly used in such systems, 
@@ -132,9 +135,12 @@ By an additional agreement with the manufacturer, it is possible to supply a tra
 * Bind the station by the handle of the case with the help of a safety cord to the guard rail, railing, etc. to prevent the station from tipping over into the water;
 * Open the station cover by pushing the locks down (see **Figure 3**):
 
-| ![SubVox Topside case lock](/documentation/smallcase_lock1.png) |
-| :---: |
-| **Figure 3 - Lock** |
+<table>
+<thead><tr><th align="center" markdown="span">![SubVox Topside case lock](/documentation/smallcase_lock1.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">**Figure 3 - Lock**</td></tr>
+</tbody>
+</table>
 
 * Fix the cable of the hydroacoustic antenna with a carabiner, as shown in **Figure 4**, to unload the antenna connector from possible jerking and tension. It is allowed to fix the cable to the load-carrying eye using a polymer cord with a thickness of at least 4 mm.
 

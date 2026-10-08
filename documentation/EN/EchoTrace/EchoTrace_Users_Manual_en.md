@@ -61,15 +61,21 @@ The minimum set includes:
 
 - **Four sonobuoys** [EchoTrace GIB](EchoTrace_GIB_Specification_en.md):
 
-| ![EchoTrace GIB](/documentation/echotrace_gib_h_small.png) |
-| :---: |
-| [EchoTrace GIB](EchoTrace_GIB_Specification_en.md) <br/> Navigation sonobuoy |
+<table>
+<thead><tr><th align="center" markdown="span">![EchoTrace GIB](/documentation/echotrace_gib_h_small.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">[EchoTrace GIB](EchoTrace_GIB_Specification_en.md) <br/> Navigation sonobuoy</td></tr>
+</tbody>
+</table>
 
 - Navigation solver/radio modem/dongle with built-in GNSS receiver [EchoTrace RF Dongle](EchoTrace_RF_Dongle_Specification_en.md), for receiving navigation information from buoys:
 
-| ![EchoTrace RF Dongle](/documentation/echotrace_rf_dongle.png) |
-| :---: |
-| [EchoTrace RF Dongle](EchoTrace_RF_Dongle_Specification_en.md) <br/> Navigation solver/radio modem/dongle |
+<table>
+<thead><tr><th align="center" markdown="span">![EchoTrace RF Dongle](/documentation/echotrace_rf_dongle.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">[EchoTrace RF Dongle](EchoTrace_RF_Dongle_Specification_en.md) <br/> Navigation solver/radio modem/dongle</td></tr>
+</tbody>
+</table>
 
 - Autonomous power supply and interface converter [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html), to which the radio modem/dongle is connected.
 
@@ -80,9 +86,12 @@ In this configuration, the divers' geoposition will be determined at the moment 
 
 * If it is necessary to determine the location of a remotely controlled vehicle (ROV, ROV), or a diver without the need to use voice communication, then **1** pinger beacon [EchoTrace Pinger](EchoTrace_Pinger_Specification_en.md) is used. The pinger works autonomously and the geoposition of the object on which the pinger is attached will be updated every two seconds.
 
-| ![EchoTrace Pinger](/documentation/dev_big_wbat_li_small.png) |
-| :---: |
-| [EchoTrace Pinger](EchoTrace_Pinger_Specification_en.md) <br/> Pinger Beacon |
+<table>
+<thead><tr><th align="center" markdown="span">![EchoTrace Pinger](/documentation/dev_big_wbat_li_small.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">[EchoTrace Pinger](EchoTrace_Pinger_Specification_en.md) <br/> Pinger Beacon</td></tr>
+</tbody>
+</table>
 
 ## 2. Working with the EchoTrace system
 
@@ -128,23 +137,29 @@ After this, you can place the buoys on the surface of the water.
 
 The device is charged using the included accessory and only when the device is turned off and completely dry.
 
-| |
-| :---: |
-| ![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_charger.png) |
-| Buoy charger |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_charger.png)</td></tr>
+<tr><td align="center" markdown="span">Buoy charger</td></tr>
+</tbody>
+</table>
 
 Before connecting the accessory to the buoy, turn it off. Make sure that the charging contacts of the accessory fit into the sockets on the buoy, then connect the charger to the mains.
 Depending on the version of the charger, the indication of operating modes may differ. For more complete information, please refer to the charger instructions.
 
-| |
-| :---: |
-| ![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_charger_connecting.png) |
-| Connecting the charger to the buoy |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_charger_connecting.png)</td></tr>
+<tr><td align="center" markdown="span">Connecting the charger to the buoy</td></tr>
+</tbody>
+</table>
 
-| |
-| :---: |
-| ![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_charger_connected.png) |
-| Charger connected |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_charger_connected.png)</td></tr>
+<tr><td align="center" markdown="span">Charger connected</td></tr>
+</tbody>
+</table>
 
 Once charging is complete, unplug the charger and remove the charging accessory from the buoy.
 
@@ -153,10 +168,12 @@ Once charging is complete, unplug the charger and remove the charging accessory 
 Connecting a service cable may be required to change the buoy's address, determine its serial number, or update its software.
 The service cable is connected using the supplied adapter, which is connected to a group of contacts located at the bottom of the surface block of the device. The picture below shows the connection of the adapter.
 
-| |
-| :---: |
-| ![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_scable.png) |
-| Connecting the service cable adapter |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![AsterGrid Buoy water detector pads](/documentation/astergrid_buoy_v2_scable.png)</td></tr>
+<tr><td align="center" markdown="span">Connecting the service cable adapter</td></tr>
+</tbody>
+</table>
 
 After connecting the adapter with cable to the buoy, connect it to the PC on which install the required software:
 - the firmware update utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
@@ -173,11 +190,13 @@ Buoys are placed in the water area on the surface of the water, their position i
 
 The figure below<sup>[1](#footnote1)</sup> shows the recommended installation scheme for a buoy on a pond.
 
-| |
-| :---: |
-| ![deployment scheme](/documentation/def_astergrid_buoy_dep_scheme.png)|
-| Recommended buoy installation scheme |
-| _1 - hydroacoustic navigation buoy, 2 - additional weight<sup>[2](#footnote2)</sup>, 3 - float, 4 - anchor rope, 5 - anchor_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![deployment scheme](/documentation/def_astergrid_buoy_dep_scheme.png)</td></tr>
+<tr><td align="center" markdown="span">Recommended buoy installation scheme</td></tr>
+<tr><td align="center" markdown="span">_1 - hydroacoustic navigation buoy, 2 - additional weight<sup>[2](#footnote2)</sup>, 3 - float, 4 - anchor rope, 5 - anchor_</td></tr>
+</tbody>
+</table>
 
 __________
 <a name="footnote1"><sup>1</sup></a> Images may differ from actual products,
@@ -215,11 +234,13 @@ The pinger beacon turns on automatically when it gets into water (the contacts f
 
 The pinger beacon should be attached only to a special groove with a soft clamp in such a way as to exclude any uneven loading of the beacon body, excessive compression and shading/screening of the beacon body. The figure below shows the basic requirements for installing the acoustic part of the pinger beacon on the carrier:
 
-| |
-| :---: |
-| ![0](/documentation/Vexa_Mini_mounting_en.png)|
-| Requirements for installation of the acoustic part of the pinger beacon on the carrier |
-| _Shielding of the spatial hemisphere or parts of the antenna located above the mounting groove is not allowed; the pressure in the area under the fastening must be balanced with the external pressure_ |
+<table>
+<tbody>
+<tr><td align="center" markdown="span">![0](/documentation/Vexa_Mini_mounting_en.png)</td></tr>
+<tr><td align="center" markdown="span">Requirements for installation of the acoustic part of the pinger beacon on the carrier</td></tr>
+<tr><td align="center" markdown="span">_Shielding of the spatial hemisphere or parts of the antenna located above the mounting groove is not allowed; the pressure in the area under the fastening must be balanced with the external pressure_</td></tr>
+</tbody>
+</table>
 
 The functionality of the pinger beacon can be easily checked by lowering it into water: when submerged more than 1 meter, it begins to emit a navigation signal with a period of 2 seconds.
 

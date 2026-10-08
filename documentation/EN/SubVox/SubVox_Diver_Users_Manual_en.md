@@ -129,10 +129,13 @@ ________________
 
 Figure 2 shows the scope of delivery
 
-| ![SubVox Diver](/documentation/subvox_diver_package.png) |
-| :---: |
-| **Fig 2 - Contents of delivery** |
-| The numbers indicate: *1 - charger, 2 - charging chassis (cradle), 3 - PTT, 4 - connector, 5 - USB radio dongle, 6 - SubVox Diver station* |
+<table>
+<thead><tr><th align="center" markdown="span">![SubVox Diver](/documentation/subvox_diver_package.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">**Fig 2 - Contents of delivery**</td></tr>
+<tr><td align="center" markdown="span">The numbers indicate: *1 - charger, 2 - charging chassis (cradle), 3 - PTT, 4 - connector, 5 - USB radio dongle, 6 - SubVox Diver station*</td></tr>
+</tbody>
+</table>
 
 The pinout of the connector in the standard version is shown in **Table 4**
 
@@ -220,9 +223,12 @@ The end of the charge is determined by the indicator of the complete mains charg
 
 Charging chassis installation is shown in Figure 3:
 
-| ![SubVox Diver](/documentation/subvox_diver_charging_cradle.png) |
-| :---: |
-| **Fig 3 - Charging chassis installation** |
+<table>
+<thead><tr><th align="center" markdown="span">![SubVox Diver](/documentation/subvox_diver_charging_cradle.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">**Fig 3 - Charging chassis installation**</td></tr>
+</tbody>
+</table>
 
 
 ### 3.3. Configuration

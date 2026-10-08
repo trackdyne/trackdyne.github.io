@@ -1,8 +1,10 @@
 [Main](/README.md) ❯ **Underwater Wireless voice systems (Underwater telephone)**
 
-| ![Trackdyne](/documentation/logo.png) |
-| :---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
+<p align="center" markdown="span">
+![Trackdyne](/documentation/logo.png)<br/>
+[trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com)
+</p>
+
 ## Underwater Wireless voice systems (Underwater telephone)
 ### SubVox - Underwater telephone
 * [Device specification: SubVox Topside](/documentation/EN/SubVox/SubVox_Topside_Specification_en.md)

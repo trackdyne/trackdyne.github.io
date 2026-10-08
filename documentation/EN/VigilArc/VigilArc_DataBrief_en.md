@@ -36,9 +36,12 @@
 * Antenna VigilArc Array is installed on a boom from almost any vessel, connected to a 12 V / 3.5 A power source, and to a control PC (Windows 10 and higher) - in this minimum configuration, the system determines the position of the responders (azimuth and distance) relative to the antenna. When a GNSS receiver with a compass function (**RMC, GGA, HDG**) is connected to the control PC, the system determines the geographic coordinates of the responders and can transmit them (**RMC, GGA**) to any serial port, thereby emulating a GNSS receiver for the selected responder beacon;
 <div style="page-break-after: always;"></div>
 
-| ![VigilArc Array placement](/documentation/vigilarc_boat_gnss_1.png) |
-| :---: |
-| [VigilArc Array](VigilArc_Array_Specification_en.md) deployment scheme <br/> _The antenna is mounted on a rigid rod so that it is no closer than 2 meters from the surface of the water and no closer than 1.5 meters from the bottom of the vessel. The antenna offsets relative to the geolocation point and the angular offset of the zero of the antenna and the GNSS compass are set_ |
+<table>
+<thead><tr><th align="center" markdown="span">![VigilArc Array placement](/documentation/vigilarc_boat_gnss_1.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">[VigilArc Array](VigilArc_Array_Specification_en.md) deployment scheme <br/> _The antenna is mounted on a rigid rod so that it is no closer than 2 meters from the surface of the water and no closer than 1.5 meters from the bottom of the vessel. The antenna offsets relative to the geolocation point and the angular offset of the zero of the antenna and the GNSS compass are set_</td></tr>
+</tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
@@ -52,18 +55,24 @@ In this case, the following data and functions are available to the user:
 * **Distance** to responder beacons
 * **Depths** of transponder beacons
 
-| ![VigilArc Array relative scheme](/documentation/vigilarc_option1.png) |
-| :---: |
-| _Working in relative coordinates_ |
+<table>
+<thead><tr><th align="center" markdown="span">![VigilArc Array relative scheme](/documentation/vigilarc_option1.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">_Working in relative coordinates_</td></tr>
+</tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
 ### Working in absolute coordinates
 To determine the **absolute location** of the responder beacons, the antenna is interfaced with a PC on which specialized control software AzimuthSuite (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) is installed. The antenna is connected to the PC via [VigilArc Deck](VigilArc_Deck_Specification_en.md), which converts the interface to USB and powers the antenna. Additionally, an external **GNSS** system with compass function operating under the **NMEA 0183** protocol (**RMC** and **HDT** messages) is connected.
 
-| ![VigilArc Array absolute scheme](/documentation/vigilarc_option2.png) |
-| :---: |
-| _Working in absolute coordinates_ |
+<table>
+<thead><tr><th align="center" markdown="span">![VigilArc Array absolute scheme](/documentation/vigilarc_option2.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">_Working in absolute coordinates_</td></tr>
+</tbody>
+</table>
 
 In this case, the following data and functions are available to the user:
 * Absolute **geographical coordinates** of responders and their depths
@@ -77,18 +86,24 @@ In this case, the following data and functions are available to the user:
 
 Since the location of [VigilArc Tag](VigilArc_Tag_Specification_en.md) responder beacons is carried out by the horizontal angle of arrival of the signal, slant range and depth difference, the [VigilArc Array](VigilArc_Array_Specification_en.md) direction finding station antenna array has the highest sensitivity in the range angles from 0° to 85° from the horizontal. The accuracy of the system when the responder is close to the nadir direction may be reduced.
 
-| ![VigilArc Array angular zones](/documentation/vigilarc_geometric_limitations.png) |
-| :---: |
-| Geometric constraints [VigilArc Array](VigilArc_Array_Specification_en.md) <br/> _1 - DF antenna, 2 - upper hemisphere, 3 - working area (0° .. 85°, 0 .. -85°), 4 - area of accuracy reduction (85° .. -85°)_ |
+<table>
+<thead><tr><th align="center" markdown="span">![VigilArc Array angular zones](/documentation/vigilarc_geometric_limitations.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Geometric constraints [VigilArc Array](VigilArc_Array_Specification_en.md) <br/> _1 - DF antenna, 2 - upper hemisphere, 3 - working area (0° .. 85°, 0 .. -85°), 4 - area of accuracy reduction (85° .. -85°)_</td></tr>
+</tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
 _________  
 
-| **Additional information** |
-| :--- |
-| [**VigilArc USBL**: User's manual](VigilArc_Users_manual_en.md) |
-| [**VigilArc Tag**: Responder beacon, device specification](VigilArc_Tag_Specification_en.md) |
-| [**VigilArc Array**: DF-antenna, device specification](VigilArc_Array_Specification_en.md) |
-| [**VigilArc Deck**: Autonomous power supply, device specification](VigilArc_Deck_Specification_en.md) |
-| [**VigilArc USBL: Communication protocol specification**](VigilArc_Protocol_Specification_en.md) |
+<table>
+<thead><tr><th align="left" markdown="span">**Additional information**</th></tr></thead>
+<tbody>
+<tr><td align="left" markdown="span">[**VigilArc USBL**: User's manual](VigilArc_Users_manual_en.md)</td></tr>
+<tr><td align="left" markdown="span">[**VigilArc Tag**: Responder beacon, device specification](VigilArc_Tag_Specification_en.md)</td></tr>
+<tr><td align="left" markdown="span">[**VigilArc Array**: DF-antenna, device specification](VigilArc_Array_Specification_en.md)</td></tr>
+<tr><td align="left" markdown="span">[**VigilArc Deck**: Autonomous power supply, device specification](VigilArc_Deck_Specification_en.md)</td></tr>
+<tr><td align="left" markdown="span">[**VigilArc USBL: Communication protocol specification**](VigilArc_Protocol_Specification_en.md)</td></tr>
+</tbody>
+</table>

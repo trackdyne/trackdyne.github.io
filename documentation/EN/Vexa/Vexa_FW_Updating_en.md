@@ -30,9 +30,12 @@ Prepare everything to connect the modem to the PC.
 ### Step 2.1 
 Connect your modem to the **UART<->USB** converter. The purpose of the cable cores by color is shown below:
 
-| ![Vexa Mini_wiring_diagram_en](/documentation/Vexa_Mini_wiring_diagram_en.png) |
-| :---: |
-| Fig 1. Functions of cable cores |
+<table>
+<thead><tr><th align="center" markdown="span">![Vexa Mini_wiring_diagram_en](/documentation/Vexa_Mini_wiring_diagram_en.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Fig 1. Functions of cable cores</td></tr>
+</tbody>
+</table>
 
 The voltage on the data lines **MUST NOT** exceed 3.3 V.
 For the initial switching of the modem to the command mode, it is necessary to provide for the possibility of tightening the SVC / CMD wire to a voltage of 3.3 or 5 Volts. It is convenient to do this with a jumper.
@@ -40,13 +43,19 @@ For the initial switching of the modem to the command mode, it is necessary to p
 ### Step 2.2 
 Provide the ability to conveniently turn on and off the command mode according to the diagrams below.
 
-| ![vexa_mini_usb_cmd_mode_off](/documentation/vexa_mini_usb_cmd_mode_off.png) |
-| :---: |
-| Fig 2. Connecting a modem to a PC USB port using an interface converter. **Command mode OFF** |
+<table>
+<thead><tr><th align="center" markdown="span">![vexa_mini_usb_cmd_mode_off](/documentation/vexa_mini_usb_cmd_mode_off.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Fig 2. Connecting a modem to a PC USB port using an interface converter. **Command mode OFF**</td></tr>
+</tbody>
+</table>
 
-| ![vexa_mini_usb_cmd_mode_on](/documentation/vexa_mini_usb_cmd_mode_on.png) |
-| :---: |
-| Fig 3. Connecting a modem to a PC USB port using an interface converter. **Command mode ON** |
+<table>
+<thead><tr><th align="center" markdown="span">![vexa_mini_usb_cmd_mode_on](/documentation/vexa_mini_usb_cmd_mode_on.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Fig 3. Connecting a modem to a PC USB port using an interface converter. **Command mode ON**</td></tr>
+</tbody>
+</table>
 
 
 ## Step 3
@@ -58,9 +67,12 @@ Make sure that the command mode is not enabled (jumper removed, **SVC/CMD** wire
 ### Step 3.2 
 Connect the modem to the USB port of the PC using a converter:
 
-| ![vexa_mini_and_uart_usb_converter3](/documentation/vexa_mini_and_uart_usb_converter3.png) |
-| :---: |
-| Fig 4. Modem is connected to a PC |
+<table>
+<thead><tr><th align="center" markdown="span">![vexa_mini_and_uart_usb_converter3](/documentation/vexa_mini_and_uart_usb_converter3.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Fig 4. Modem is connected to a PC</td></tr>
+</tbody>
+</table>
 
 ## Step 4
 Enabling the **Command mode by default** setting.

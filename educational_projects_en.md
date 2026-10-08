@@ -1,8 +1,10 @@
 [Main](/README.md) ❯ **Our educational projects**
 
-| ![Trackdyne](/documentation/logo.png) |
-| :---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
+<p align="center" markdown="span">
+![Trackdyne](/documentation/logo.png)<br/>
+[trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com)
+</p>
+
 ## Our projects for education
 
 > In this section we have collected online utilities and DIY projects which we use ourselves and which you can also use absolutely free of charge.

@@ -78,9 +78,12 @@ Default port settings<sup>[1](#footnote1)</sup>:
 >**WARNING!**
 >_The modems are powered by a 5 or 12 Volt DC source, while the data line voltage is 3.3 V._
 
-| ![Vexa Mini_wiring_diagram_en](/documentation/Vexa_Mini_wiring_diagram_en.png) |
-| :---: |
-| **Vexa Mini** wiring diagram |
+<table>
+<thead><tr><th align="center" markdown="span">![Vexa Mini_wiring_diagram_en](/documentation/Vexa_Mini_wiring_diagram_en.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">**Vexa Mini** wiring diagram</td></tr>
+</tbody>
+</table>
 
 ### 1.2. NMEA0183 Protocol standard
 The NMEA0183 standard describes the format of text (ASCII) messages at the interactive level.
@@ -522,13 +525,19 @@ Also, the command mode can be enabled by default using the [IC_H2D_SETTINGS_WRIT
 
 Below are the schemes for switching on and off the command mode using the **SVC/CMD** wire in the case of pairing the modem with a PC using a UART-USB interface converter.
 
-| ![vexa_mini_usb_cmd_mode_off](/documentation/vexa_mini_usb_cmd_mode_off.png) |
-| :---: |
-| Connecting a modem to a PC USB port using an interface converter. **Command mode OFF** |
+<table>
+<thead><tr><th align="center" markdown="span">![vexa_mini_usb_cmd_mode_off](/documentation/vexa_mini_usb_cmd_mode_off.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Connecting a modem to a PC USB port using an interface converter. **Command mode OFF**</td></tr>
+</tbody>
+</table>
 
-| ![vexa_mini_usb_cmd_mode_on](/documentation/vexa_mini_usb_cmd_mode_on.png) |
-| :---: |
-| Connecting a modem to a PC USB port using an interface converter. **Command mode ON** |
+<table>
+<thead><tr><th align="center" markdown="span">![vexa_mini_usb_cmd_mode_on](/documentation/vexa_mini_usb_cmd_mode_on.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Connecting a modem to a PC USB port using an interface converter. **Command mode ON**</td></tr>
+</tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 

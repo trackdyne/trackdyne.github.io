@@ -66,19 +66,22 @@ The system includes:
 - From 1 to 16 responder beacons [VigilArc Tag](VigilArc_Tag_Specification_en.md)
 - Power supply and switching unit [VigilArc Deck](VigilArc_Deck_Specification_en.md).
 
-| ![VigilArc Array](/documentation/def_vigilarc_array_ant.png) |
-| :---: |
-| [VigilArc Array](VigilArc_Array_Specification_en.md)|
-| *DF Antenna* |
-| ![VigilArc Array-Interface-cable](/documentation/def_vigilarc_array_int_cable.png) |
-| |
-| *Cable with integrated interface converter* |
-| ![VigilArc Tag](/documentation/vigilarc_tag.png) |
-| [VigilArc Tag](VigilArc_Tag_Specification_en.md) |
-| *Beacon-responder* |
-|  |
-| [VigilArc Deck](VigilArc_Deck_Specification_en.md) |
-| *Power supply and switching unit* |
+<table>
+<thead><tr><th align="center" markdown="span">![VigilArc Array](/documentation/def_vigilarc_array_ant.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">[VigilArc Array](VigilArc_Array_Specification_en.md)</td></tr>
+<tr><td align="center" markdown="span">*DF Antenna*</td></tr>
+<tr><td align="center" markdown="span">![VigilArc Array-Interface-cable](/documentation/def_vigilarc_array_int_cable.png)</td></tr>
+<tr><td align="center" markdown="span"></td></tr>
+<tr><td align="center" markdown="span">*Cable with integrated interface converter*</td></tr>
+<tr><td align="center" markdown="span">![VigilArc Tag](/documentation/vigilarc_tag.png)</td></tr>
+<tr><td align="center" markdown="span">[VigilArc Tag](VigilArc_Tag_Specification_en.md)</td></tr>
+<tr><td align="center" markdown="span">*Beacon-responder*</td></tr>
+<tr><td align="center" markdown="span"></td></tr>
+<tr><td align="center" markdown="span">[VigilArc Deck](VigilArc_Deck_Specification_en.md)</td></tr>
+<tr><td align="center" markdown="span">*Power supply and switching unit*</td></tr>
+</tbody>
+</table>
 
 <div style="page-break-after: always;"></div>
 
@@ -105,10 +108,13 @@ We use **LiFePO4** based batteries because they are the most durable and withsta
 
 If you hold the antenna by the cable so that there is a rounded protrusion on the mounting groove on the left and a sharp protrusion on the right, then the zero direction of the antenna points forward and coincides with the molding seam. The zero direction is indicated by an arrow in the figure below.
 
-| ![vigilarc_zero_direction](/documentation/vigilarc_zero_direction_1.png) | 
-| :---: |
-| DF antenna zero direction |
-| *The horizontal angle is measured clockwise from the zero direction of the antenna, the vertical axis is pointing down* |
+<table>
+<thead><tr><th align="center" markdown="span">![vigilarc_zero_direction](/documentation/vigilarc_zero_direction_1.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">DF antenna zero direction</td></tr>
+<tr><td align="center" markdown="span">*The horizontal angle is measured clockwise from the zero direction of the antenna, the vertical axis is pointing down*</td></tr>
+</tbody>
+</table>
 
 The antenna determines the horizontal angle of signal arrival relative to its zero direction, the following requirements must be observed when mounting the antenna:
 - The antenna should be placed on a lowering rod, ensuring its stable position no closer than 2 meters from the surface of the water and no higher than 1.5 from the bottom of the vessel's keel
@@ -158,10 +164,13 @@ To clarify the names of the connectors on the power and switching unit panel, re
 
 The responder beacon must be fastened only by special groove with a soft clamp in such a way as to exclude any uneven loading of the beacon body, excessive squeezing and shading/shielding of the beacon body. The figure below shows the basic requirements for mounting the acoustic part of the transponder beacon on the carrier:
 
-| ![0](/documentation/Vexa_Mini_mounting_en.png)|
-| :---: |
-| Requirements for mounting the acoustic part of the transponder beacon on the carrier |
-| * Shielding of the spatial hemisphere or parts of the antenna located above the mounting groove is not allowed; the pressure in the area under the fastening must be balanced with the external pressure* |
+<table>
+<thead><tr><th align="center" markdown="span">![0](/documentation/Vexa_Mini_mounting_en.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Requirements for mounting the acoustic part of the transponder beacon on the carrier</td></tr>
+<tr><td align="center" markdown="span">* Shielding of the spatial hemisphere or parts of the antenna located above the mounting groove is not allowed; the pressure in the area under the fastening must be balanced with the external pressure*</td></tr>
+</tbody>
+</table>
 
 The responder beacon should not be located near propulsion jets or directly in their path. The system requires a direct line of sight (through the water column) between the direction finding antenna and the responder beacon, so the beacon must be installed at the top of the carrier.
 
@@ -205,10 +214,13 @@ The application uses two types of settings:
 
 The appearance of the application settings editor window is shown in the figure below.
 
-| ![0](/documentation/azimuthsuite_settings_editor_1.png)|
-| :---: |
-| Settings editor |
-| *1 - List of used responder beacons, 2 - External GNSS compass usage option, 3 - External GNSS compass port speed, 4 - Antenna position offset from GNSS compass position in transverse direction, 5 - Antenna position offset from GNSS compass position Longitudinal direction, 6 - Angle correction (angle between GNSS compass zero and antenna zero), 7 - Output port usage option, 8 - Output port speed, 9 - Accept settings and cancel buttons, 10 - Reset settings to default values button, 11 - Maximum distance to responder beacons, 12 - Water salinity* |
+<table>
+<thead><tr><th align="center" markdown="span">![0](/documentation/azimuthsuite_settings_editor_1.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Settings editor</td></tr>
+<tr><td align="center" markdown="span">*1 - List of used responder beacons, 2 - External GNSS compass usage option, 3 - External GNSS compass port speed, 4 - Antenna position offset from GNSS compass position in transverse direction, 5 - Antenna position offset from GNSS compass position Longitudinal direction, 6 - Angle correction (angle between GNSS compass zero and antenna zero), 7 - Output port usage option, 8 - Output port speed, 9 - Accept settings and cancel buttons, 10 - Reset settings to default values button, 11 - Maximum distance to responder beacons, 12 - Water salinity*</td></tr>
+</tbody>
+</table>
 
 The system supports **sequential operation with up to 16 responder beacons**. The operator can select the required beacon addresses in the **1** box by checking the corresponding checkboxes. Always check the boxes next to those addresses that will be used in the current work, otherwise the system will waste time polling beacons that are not in the water area.
 
@@ -216,10 +228,13 @@ The system supports **sequential operation with up to 16 responder beacons**. Th
 
 The location of the DF antenna in relation to the anchor point is illustrated below:
 
-| ![0](/documentation/boat_gnss_1.png)|
-| :---: |
-| Setting the location of the direction finding antenna relative to the anchor point and compass zero direction |
-| _Antenna offsets relative to the GNSS compass: **lateral ΔX** and **longitudinal ΔY**; angular mismatch of zero directions of compass and direction-finding antenna **𝛿**_ |
+<table>
+<thead><tr><th align="center" markdown="span">![0](/documentation/boat_gnss_1.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Setting the location of the direction finding antenna relative to the anchor point and compass zero direction</td></tr>
+<tr><td align="center" markdown="span">_Antenna offsets relative to the GNSS compass: **lateral ΔX** and **longitudinal ΔY**; angular mismatch of zero directions of compass and direction-finding antenna **𝛿**_</td></tr>
+</tbody>
+</table>
 
 **When working in sea water**, specify the salinity using the **12** group of elements: either by entering a known value in the input field or using the built-in database of world ocean salinities by pressing the **🔎** button and indicating the current geographical coordinates .
 
@@ -236,10 +251,13 @@ When you press the **OK** button, the application will save the settings and pro
 
 The view of the main window of the application is shown in the figure below.
 
-| ![0](/documentation/azimuthsuite_main_window_1.png)|
-| :---: |
-| View of the main application window |
-| *1 - Main toolbar, 2 - Map toolbar, 3 - Map field, 4 - Misc info text field, 5 - Log text field, 6 - Additional toolbar, 7 - Status bar, 8 - Responder beacon list toolbar , 9 - List of responder beacons, 10 - Switch panel of parameters displayed in the list of responder beacons* |
+<table>
+<thead><tr><th align="center" markdown="span">![0](/documentation/azimuthsuite_main_window_1.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">View of the main application window</td></tr>
+<tr><td align="center" markdown="span">*1 - Main toolbar, 2 - Map toolbar, 3 - Map field, 4 - Misc info text field, 5 - Log text field, 6 - Additional toolbar, 7 - Status bar, 8 - Responder beacon list toolbar , 9 - List of responder beacons, 10 - Switch panel of parameters displayed in the list of responder beacons*</td></tr>
+</tbody>
+</table>
 
 - **1. The main toolbar** is located at the top of the application window and contains the following elements:
   - The **🔌 LINK** button turns on and off the connection with all devices. When the connection is enabled, the application will search for the connected VigilArc Array DF antenna and external GNSS compass (when the setting is enabled). This feature is also available via the `Ctrl + L` key combination.
@@ -334,9 +352,12 @@ For an integrated version, you must use the USB-UART converter according to the 
 
 <div style="page-break-after: always;"></div>
 
-| ![VigilArc Tag wiring](/documentation/VigilArc_Tag_wiring_diagram_en.png) |
-| :---: |
-| Functions of wires of VigilArc Tag responder beacons |
+<table>
+<thead><tr><th align="center" markdown="span">![VigilArc Tag wiring](/documentation/VigilArc_Tag_wiring_diagram_en.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">Functions of wires of VigilArc Tag responder beacons</td></tr>
+</tbody>
+</table>
 
 After connecting the beacon to the PC, launch the **AzimuthSuite** application and establish a connection by pressing the **🔌 LINK** button (or the key combination `Ctrl + L`).
 The application will search for the port, the progress and result of the search is displayed in the status bar.

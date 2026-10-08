@@ -71,11 +71,14 @@ from the figure of buoys_
 
 _________  
 
-| **Additional information** |
-| :--- |
-| [Tracks](media.md) |
-| [AsterGrid Buoy - GNSS-equipped sonobuoy: Device specification](AsterGrid_Buoy_Specification_en.md) |
-| [AsterGrid Nav - Diver's navigation receiver: Device specification](AsterGrid_Nav_Specification_en.md) |
-| [AsterGrid Node - navigation receiver: Device specification](AsterGrid_Node_Specification_en.md) |
-| [AsterGrid - AsterGrid Node interfacing protocol description](AsterGrid_Protocol_Specification_en.md) |
-| [AsterGrid - User's manual](AsterGrid_Users_Manual_en.md) |
+<table>
+<thead><tr><th align="left" markdown="span">**Additional information**</th></tr></thead>
+<tbody>
+<tr><td align="left" markdown="span">[Tracks](media.md)</td></tr>
+<tr><td align="left" markdown="span">[AsterGrid Buoy - GNSS-equipped sonobuoy: Device specification](AsterGrid_Buoy_Specification_en.md)</td></tr>
+<tr><td align="left" markdown="span">[AsterGrid Nav - Diver's navigation receiver: Device specification](AsterGrid_Nav_Specification_en.md)</td></tr>
+<tr><td align="left" markdown="span">[AsterGrid Node - navigation receiver: Device specification](AsterGrid_Node_Specification_en.md)</td></tr>
+<tr><td align="left" markdown="span">[AsterGrid - AsterGrid Node interfacing protocol description](AsterGrid_Protocol_Specification_en.md)</td></tr>
+<tr><td align="left" markdown="span">[AsterGrid - User's manual](AsterGrid_Users_Manual_en.md)</td></tr>
+</tbody>
+</table>
