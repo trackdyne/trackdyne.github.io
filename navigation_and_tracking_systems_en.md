@@ -1,8 +1,10 @@
 [Main](/README.md) ❯ **Navigation & tracking systems**
 
-| ![Trackdyne](/documentation/logo.png) |
-| :---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
+<p align="center" markdown="span">
+![Trackdyne](/documentation/logo.png)<br/>
+[trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com)
+</p>
+
 ## Navigation & tracking systems
 
 ### General information

@@ -32,10 +32,13 @@ The device is housed in a small impact-resistant plastic case. Has the front pan
 ## 2. Appearance and controls
 The appearance of the front panel of the device is shown in **Figure 1**. In the center of the panel there are connectors for connecting devices that support communication via the RS-422/485 interface and USB-B connectors. Connectors are grouped as **1** and **8**<sup>[1](#footnote21)</sup>. External devices are connected to connectors **X1** and **X3**, these connectors provide power to connected external devices. The USB-B connectors **X2** and **X4** are intended for connection to the USB port of a PC.
 
-| ![VigilArc Deck panel](/documentation/vigilarc_deck_panel2ch.png) |
-| :---: |
-| **Fig. 1 - Control panel** | 
-| _1 - Line 1, 2 - Charge indicator, 3 - Power state indicator, 4 - power switch, 5 - battery line fuse<sup>[2](#footnote22)</sup>, 6 - external power line fuse<sup>[2](#footnote22)</sup>, 7 - Charger (AC/DC adaptor) connector<sup>[2](#footnote22)</sup>, 8 - line 2_ |
+<table>
+<thead><tr><th align="center" markdown="span">![VigilArc Deck panel](/documentation/vigilarc_deck_panel2ch.png)</th></tr></thead>
+<tbody>
+<tr><td align="center" markdown="span">**Fig. 1 - Control panel**</td></tr>
+<tr><td align="center" markdown="span">_1 - Line 1, 2 - Charge indicator, 3 - Power state indicator, 4 - power switch, 5 - battery line fuse<sup>[2](#footnote22)</sup>, 6 - external power line fuse<sup>[2](#footnote22)</sup>, 7 - Charger (AC/DC adaptor) connector<sup>[2](#footnote22)</sup>, 8 - line 2_</td></tr>
+</tbody>
+</table>
 
 Indicator **2** is on when the built-in power supply is being charged and off when it is not being charged.
 The two-color indicator **3** is used to show the power status of the system. **Table 1** lists all options for possible light signals.

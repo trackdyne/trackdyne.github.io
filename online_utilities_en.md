@@ -1,8 +1,10 @@
 [Main](/README.md) ❯ [Our educational projects](/educational_projects_en) ❯ **Online utilities**
 
-| ![Trackdyne](/documentation/logo.png) |
-| :---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) |
+<p align="center" markdown="span">
+![Trackdyne](/documentation/logo.png)<br/>
+[trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com)
+</p>
+
 ## Online utilities
 ### Proper seawater properties calculators
 * [Proper depth calculator](/online_utils/proper_depth_calculator.html)
