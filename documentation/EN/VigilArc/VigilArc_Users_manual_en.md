@@ -35,13 +35,10 @@
 - [2.1. Preparation for operation and equipment check](#21-preparation-for-operation-and-equipment-check)
   - [2.1.1. Positioning and setting up the direction-finding antenna](#211-positioning-and-setting-up-the-direction-finding-antenna)
   - [2.1.2. Mounting the responder-beacon on the carrier](#212-mounting-the-responder-beacon-on-the-carrier)
-  - [2.1.3. Angular misalignment calibration](#213-angular-misalignment-calibration)
-- [2.2. VigilArc Console application](#22-vigilarc-console-application)
-- [2.3. AzimuthSuite application (obsolete)](#23-azimuthsuite-application-obsolete)
-- [2.4. Working with the system](#24-working-with-the-system)
-- [2.4.1. Interacting with the system](#241-interacting-with-the-system)
-  - [2.4.2. Manual setting of coordinates and direction](#242-manual-setting-of-coordinates-and-direction)
-- [2.5. After operation](#25-after-operation)
+  - [2.1.3. Antenna and compass alignment](#213-antenna-and-compass-alignment)
+- [2.2. Working with the system](#22-working-with-the-system)
+- [2.2.1. Interacting with the system](#221-interacting-with-the-system)
+- [2.3. After operation](#23-after-operation)
 - [3.1. Terms of replacement and free warranty service](#31-terms-of-replacement-and-free-warranty-service)
 - [3.2. Limitation of the manufacturer's liability](#32-limitation-of-the-manufacturers-liability)
 
@@ -130,12 +127,6 @@ In this version, the system can work with responder-beacons located at depths of
 
 ## 2.0. Before operation
 
-The positioning application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) is required to work with the system.
-Builds for all supported platforms are available on request from [support@trackdyne.com](mailto:support@trackdyne.com).
-
-Previously, the AzimuthSuite application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)), which runs under Windows, was used.
-
-Download the required software in advance. Installation is not required - simply unpack the contents of the archive to a location convenient for you.
 Before heading out to the water, make sure that all equipment is fully charged and, if necessary, charge all devices.
 
 Pay particular attention to the power supply and switching units and the responder-beacons: since these devices have built-in power sources based on **LiFePO4**, their discharge curve is very flat and it is difficult to determine the state of charge of the built-in source. Therefore, it is recommended to charge all devices before use, no earlier than 1–2 days in advance.
@@ -203,7 +194,7 @@ For the version of the power supply and switching unit with two channels (for co
 - connect the GNSS compass to the supplied cable
 - connect the GNSS compass cable to the power supply and switching unit
 
-**Switch on the power supply and switching unit** only **after launching the specialized software** on the host PC. Operation of the software and its setup are described below.
+**Switch on the power supply and switching unit** only after the host PC is ready to communicate with the system.
 
 To find out the names of the connectors on the panel of the power supply and switching unit, refer to the [user's manual of the VigilArc Deck power supply and switching unit](/documentation/EN/VigilArc/VigilArc_Deck_Users_manual_en.html).
 
@@ -233,110 +224,20 @@ The operability of the responder-beacon is easy to check by switching it on: 2 s
 
 **In the version with the standard connector, the water-activation contacts are located on both parts of the connector: on the beacon and on the mating part. Thus, when the standard battery pack is used, the device switches on when the mated connector is immersed in water.**
 
-### 2.1.3. Angular misalignment calibration
+### 2.1.3. Antenna and compass alignment
 
-The zero direction of the direction-finding antenna and the zero direction of the compass (GNSS compass or magnetic) may not coincide — for example, because of inaccurate installation of the antenna in the bracket. This leads to a systematic error in determining the azimuth to the responder-beacon. An angular calibration procedure is performed to eliminate it.
+The zero direction of the direction-finding antenna and the zero direction of the compass may not coincide, for example because of inaccurate installation of the antenna in its bracket. This introduces a systematic error in the azimuth to the responder-beacon.
 
-**Calibration principle:** during the procedure, the antenna and the responder-beacon must move relative to each other so that the **geographic azimuth to the beacon** changes over a wide range of angles. The system performs a series of **N measurements** at different azimuths to the beacon and then iterates over possible values of the angular correction within a specified range. For each candidate correction, the beacon coordinates are recalculated and the scatter of the resulting points is evaluated (DRMS — circular error probable). The optimal correction is the one that gives the **minimum DRMS** — that is, the "most tightly clustered" cloud of points.
-
-When the specified number of measurements is reached, the procedure finishes automatically. The computed correction is applied and displayed in the web interface ("Angular Calibration" panel) and in the application log.
-
-Two calibration scenarios are possible:
-
-- **The antenna is mobile (on a vessel):** the vessel moves in a circle around a stationary beacon
-- **The antenna is stationary (on a pier, quay, ice):** the beacon on a mobile carrier (diver, ROV) moves around the antenna
-
-In both cases the physical principle is the same: measurements must be obtained at different geographic azimuths to the beacon so that the algorithm can compute the angular correction.
-
-> **ℹ Why moving around matters, as opposed to rotating in place**
->
-> When the antenna rotates about its own axis (without any change in its geographic position relative to the beacon), the relative azimuth to the beacon measured by the antenna changes, but the **geographic azimuth to the beacon remains constant** — the beacon is stationary and the antenna does not move. Because of this, the angular error δ affects all measurements equally, and DRMS does not depend on the correction being iterated over — the algorithm cannot determine the optimum.
->
-> When the vessel moves **around the beacon** (or the beacon moves around the antenna), the geographic azimuth to the beacon changes from measurement to measurement. The error δ is projected onto the coordinates differently at different azimuths, and DRMS becomes a function of δ — the algorithm finds the correction that gives the minimum scatter.
-
-**Procedure (antenna on a vessel):**
-
-1. Place the responder-beacon at a distance of 20–50 m from the vessel. Make sure there is a direct acoustic line of sight between the antenna and the beacon.
-2. Launch the **VigilArc Console** application, make sure that the system is configured to work only with the single beacon selected for calibration, and establish a connection with the system (the `OCON` command).
-3. Make sure the compass (external GNSS compass or magnetic) is connected and is transmitting current data.
-4. Start moving the vessel slowly **around the beacon** in a circle, keeping the speed and the distance as constant as possible. The beacon must remain at the center of the circle being described.
-5. Run the command: `ACAL,start=0,end=360,step=0.5,n=512,addr=X`, where `addr=X` is the address of the responder-beacon being used.
-6. After the specified number of measurements has been collected, the procedure will finish automatically. The computed correction will be displayed in the web interface ("Angular Calibration" panel) and in the application log.
-7. Save the settings with the `SAVEINIT` command so that the correction is applied at subsequent launches.
-
-**Procedure (antenna on a pier/ice):**
-
-1. Install the direction-finding antenna on a pier, quay or ice. Fix its position — the antenna must remain stationary throughout the whole procedure.
-2. Launch the **VigilArc Console** application, make sure that the system is configured to work only with the single beacon selected for calibration, and establish a connection with the system (the `OCON` command).
-3. Make sure the compass is connected, fixed coaxially with the antenna and transmitting current data. If the compass is not installed coaxially, first measure the offset and enter it with the `OFS` command.
-4. Place the responder-beacon on a mobile carrier (diver, ROV) at a distance of at least 50 m from the antenna. The initial direction to the beacon does not matter.
-5. Start **moving the beacon slowly and steadily around the antenna** in a circle. Recommendations:
-- Move in such a way that the beacon describes a full circle (or at least 180°) around the antenna
-- Keep the distance to the antenna as constant as possible (variations within ±20% are acceptable)
-- The movement speed must be low and constant — especially when using compasses with an update rate of 1 Hz
-- Avoid sudden accelerations and stops
-- If the carrier is a diver: walk at a smooth pace, monitoring the distance using the application readings
-- If the carrier is an ROV: set a slow movement in a circle at a constant speed
-6. Run the command: `ACAL,start=0,end=360,step=0.5,n=512,addr=X`, where `addr=X` is the address of the responder-beacon being used.
-7. After the specified number of measurements has been collected, the procedure will finish automatically. The computed correction will be displayed in the web interface ("Angular Calibration" panel) and in the application log. Save the settings with the `SAVEINIT` command.
-
-**ACAL command parameters:**
-
-| Parameter | Description | Recommendation |
-| :--- | :--- | :--- |
-| `start` | Start of the correction search range, ° | 0 (if the offset is unknown) |
-| `end` | End of the correction search range, ° | 360 |
-| `step` | Correction search step, ° | 0.5 (a step in the range from 0.1° to 1° is acceptable) |
-| `n` | Total number of measurements | 200–500 (more measurements give higher accuracy but take longer) |
-| `addr` | Responder-beacon address (1–16) | Specify explicitly if several beacons are within range |
-
-**General recommendations:**
-
-- **Movement speed:** the slower, the better. When using magnetic compasses and GNSS compasses with an update rate of 1 Hz, it is critically important to move slowly so that the compass has time to provide current data at every measurement; this is especially important in the case of a vessel.
-- **Number of measurements:** if the movement is slow and the compass update rate is low, increase `n` so that the measurements cover the whole circle. As a rough guide: at a rate of 1 Hz and a full circle in 5 minutes, it makes sense to set `n=250`.
-- **Accuracy:** for a more accurate result, reduce the iteration step `step` to 0.1°. For most cases a step of 0.5° is sufficient.
-- **Automatic completion:** the procedure finishes by itself after `n` measurements have been collected. The result is displayed in the web interface ("Angular Calibration" panel) and in the application log.
-- **Saving:** after the calibration is completed, be sure to run `SAVEINIT`; otherwise the correction will not be applied at subsequent launches.
-- **Repeat calibration:** it is recommended to perform the calibration every time the antenna is reinstalled, and also after strong mechanical impacts on the bracket.
-
-> **ℹ Note**
->
-> The procedure is supported only in **VigilArc Console**. If you are using the obsolete AzimuthSuite application, the angular correction must be measured manually and entered in the settings (the "Antenna angle adjust, °" field).
+Measure the angular offset between these directions and the positional offset between the antenna and the GNSS receiver. Account for both offsets when converting relative measurements to geographic coordinates. Check the alignment whenever the antenna is reinstalled or the bracket is subjected to a strong mechanical impact.
 
 <div style="page-break-after: always;"></div>
 
-## 2.2. VigilArc Console application
+## 2.2. Working with the system
+For integration with a host system, use the [VigilArc communication protocol specification](/documentation/EN/VigilArc/VigilArc_Protocol_Specification_en.html). It describes device configuration, requests to responder-beacons and measurement output.
 
-A detailed user's manual for the VigilArc Console application is available as a separate document:
+The measurement setup must account for the beacon addresses, water salinity and maximum operating range. Conversion to geographic coordinates also requires the antenna position, heading and installation offsets.
 
-| Document | QR |
-| :--- | :--- |
-| VigilArc Console: user's manual | [![VigilArc Console: User's manual](/documentation/VigilArc_Console_manual_en_qr.png)](/documentation/EN/VigilArc/VigilArc_Console_manual_en.html) |
-
-## 2.3. AzimuthSuite application (obsolete)
-
-> **ℹ Information**
->
-> The **AzimuthSuite** application is no longer supported. It is recommended to use [VigilArc Console](/documentation/EN/VigilArc/VigilArc_Console_manual_en.html).
-
-| Document | QR |
-| :--- | :--- |
-| AzimuthSuite: user's manual | [![AzimuthSuite: User's manual](/documentation/AzimuthSuite_manual_en_qr.png)](/documentation/EN/VigilArc/AzimuthSuite_manual_en.html) |
-
-<div style="page-break-after: always;"></div>
-
-## 2.4. Working with the system
-The system performs almost all of the work in automatic mode; the following must be set in the system:
-- the addresses of the beacons that are to be used
-- the water salinity, for correct calculation of the depth and the speed of sound
-- the maximum range at which the beacons may be located from the direction-finding antenna
-- the connection parameters of an external source of navigation data (GNSS compass), if necessary
-- the connection parameters of an external receiver port, for GNSS emulation for the selected responder-beacon (if an external GNSS compass is present).
-
-Next, the system automatically polls the responder-beacons from the specified address range and, depending on the configuration used, displays the result on the screen and/or transmits it to consumers over one of the channels (Serial, UDP).
-During operation, the host application writes log files, which can then be played back in the same time scale in which they were recorded.
-
-## 2.4.1. Interacting with the system
+## 2.2.1. Interacting with the system
 
 At this stage it is assumed that:
 
@@ -346,14 +247,12 @@ At this stage it is assumed that:
 - The power supply and switching unit is connected to the PC with a USB-B cable
 - If a two-channel power supply and switching unit is used:
   - The external GNSS compass is connected to the power supply and switching unit
-  - The offset of the direction-finding antenna relative to the position reference point (the position of the GNSS receiver) has been measured and entered in the application settings
-  - The angle between the zero direction of the compass and that of the direction-finding antenna has been measured and entered in the application settings
+  - The offset of the direction-finding antenna relative to the position reference point (the position of the GNSS receiver) has been measured
+  - The angle between the zero direction of the compass and that of the direction-finding antenna has been measured
   - The second channel of the power supply and switching unit is connected to the PC with a USB-B cable
 - All responder-beacons that are to be used have different addresses
-- The addresses of all responder-beacons that are to be used are specified in the application settings
 - If responder-beacons in the standalone version are used, the connectors joining them to the battery packs have been checked and are tightly mated, and the battery packs are fully charged
 - If responder-beacons in the integrated version are used, the cable connections to the carrier have been checked for watertightness (according to the connection type)
-- The specialized software (VigilArc Console or AzimuthSuite) is running
 
 It is recommended to switch the beacons on at the surface: in this case, atmospheric pressure calibration takes place during the first five seconds after power is applied, which allows depth to be measured with greater absolute accuracy.
 
@@ -361,16 +260,7 @@ Since standalone beacons switch on when the battery pack is immersed in water, i
 
 Beacons in the integrated version should preferably be switched on before immersion, if this is possible under the current conditions.
 
-To start work, launch the specialized software (VigilArc Console or AzimuthSuite) and establish a connection with the system. After that, switch on the VigilArc Deck power supply and switching unit. The connection status is displayed in the application interface.
-
-> Keep in mind that the application is designed to work with only one device of the system at a time: if both the direction-finding antenna and one of the beacons are connected to the PC, there is a high probability that the beacon will be detected first during the port search. In this case the port of the direction-finding station will not be searched for.
-
-After the corresponding port (or ports) is detected, the system immediately proceeds to poll the responder-beacons whose addresses are specified in the settings.
-Operation is fully automatic.
-
-If an external GNSS receiver is used, or the position and orientation of the antenna relative to the cardinal directions are set manually, the system calculates the absolute geographic coordinates of the responder-beacons. Depending on the application, import and transmission of navigation information in various forms are available (the saving methods, channels and data transmission formats depend on the application used — see the corresponding manuals).
-
-The system supports transmission of the calculated coordinates of the responder-beacons as standard NMEA sentences (RMC, GGA) via a serial port or UDP.
+Establish communication with the direction-finding antenna according to the [communication protocol specification](/documentation/EN/VigilArc/VigilArc_Protocol_Specification_en.html).
 
 Keep in mind the factors that reduce the efficiency of the system, in particular:
 - insufficient depth of the direction-finding antenna
@@ -382,18 +272,9 @@ Keep in mind the factors that reduce the efficiency of the system, in particular
 - exposure of the antennas to turbulent thruster/propeller wash and/or to the wake
 - water density stratification (thermocline, etc.)
 
-### 2.4.2. Manual setting of coordinates and direction
-
-If using an external GNSS compass is difficult or impossible, the system allows the coordinates and orientation of the antenna to be set manually.
-
-- **VigilArc Console:** the `LHOV,lat=...,lon=...,hdg=...` command
-- **AzimuthSuite:** the `UTILS > Location override` menu item
-
-For details, see the manuals of the corresponding applications.
-
 <div style="page-break-after: always;"></div>
 
-## 2.5. After operation
+## 2.3. After operation
 
 - Switch off the power supply and switching unit
 - Disconnect all connectors on the panel of the power supply and switching unit

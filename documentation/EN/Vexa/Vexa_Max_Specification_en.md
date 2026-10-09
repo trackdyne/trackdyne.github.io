@@ -45,7 +45,7 @@ The device allows you to:
 * transmit data in packet mode with guaranteed delivery (ALO - At-least-once) and delivery notification
 * measure local immersion depth, water temperature and supply voltage.
 
-[Vexa family](/documentation/EN/Vexa/Vexa_Family_en.html) devices use a simple [NMEA-like protocol](/documentation/EN/Vexa/Vexa_Protocol_Specification_en.html) for configuration, and the integration libraries for .NET and Arduino (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) make the integration of the modems into custom solutions as simple and fast as possible.
+[Vexa family](/documentation/EN/Vexa/Vexa_Family_en.html) devices use a simple [NMEA-like protocol](/documentation/EN/Vexa/Vexa_Protocol_Specification_en.html) for configuration and integration into custom solutions.
 
 Differences from the base version of [Vexa Mini](/documentation/EN/Vexa/Vexa_Mini_Specification_en.html):
 * Maximum range increased to 3000<sup>[1](#footnote1), [2](#footnote2)</sup> m
@@ -89,7 +89,7 @@ _________
 ________________
 
 <a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received, based on the electro-acoustic parameters of the transmitter and receiver, the spatial decrease in the intensity of sound energy, attenuation in the medium and the level of underwater acoustic noise.  
-<a name="footnote2"><sup>2</sup></a> By default, the devices operate in the **78 bit/s** data rate mode, which provides the maximum range, communication reliability and the maximum number of code channels. Different data rate modes are not compatible with each other. Switching the modem to another data rate mode is done by [replacing its firmware](/documentation/EN/Vexa/Vexa_FW_Updating_en.html).  
+<a name="footnote2"><sup>2</sup></a> By default, the devices operate in the **78 bit/s** data rate mode, which provides the maximum range, communication reliability and the maximum number of code channels. Different data rate modes are not compatible with each other. Switching the modem to another data rate mode is done by replacing its firmware.  
 <a name="footnote3"><sup>3</sup></a> The maximum output power is achieved when the modem is supplied with 12 V.  
 <a name="footnote4"><sup>4</sup></a> The device has built-in overvoltage protection of the amplifier circuit. At voltages above 12.8-13 volts, the device does not turn on the power amplifier, i.e. it does not allow data transmission.  
 <a name="footnote5"><sup>5</sup></a> The value was obtained in a laboratory static experiment, without taking into account the multipath propagation effect.  

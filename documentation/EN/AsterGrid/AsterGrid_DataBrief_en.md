@@ -61,7 +61,6 @@ _________
 <tbody>
 <tr><td align="center" markdown="span">[System test videos, tracks obtained during operation in real conditions](/documentation/EN/AsterGrid/media.html)</td></tr>
 <tr><td align="center" markdown="span">[AsterGrid - underwater acoustic navigation system: User's manual](/documentation/EN/AsterGrid/AsterGrid_Users_Manual_en.html)</td></tr>
-<tr><td align="center" markdown="span">[AsterGrid Nav Host - application for configuring the diver's navigation receiver: User's manual](/documentation/EN/AsterGrid/AsterGrid_Nav_Host_Users_Manual_en.html)</td></tr>
 <tr><td align="center" markdown="span">[AsterGrid Buoy - GNSS-equipped sonobuoy: Device specification](/documentation/EN/AsterGrid/AsterGrid_Buoy_Specification_en.html)</td></tr>
 <tr><td align="center" markdown="span">[AsterGrid Nav - diver's navigator: Device specification](/documentation/EN/AsterGrid/AsterGrid_Nav_Specification_en.html)</td></tr>
 <tr><td align="center" markdown="span">[AsterGrid Node - universal (integrated) navigation receiver: Device specification](/documentation/EN/AsterGrid/AsterGrid_Node_Specification_en.html)</td></tr>

@@ -108,14 +108,6 @@ In this configuration, the divers' geographic positions will be determined when 
 ## 2. Working with the EchoTrace system
 
 ### 2.0. Before operation
-Depending on whether you are working with a pinger or tracking the movements of divers, you will need different versions of specialized software.
-
-- To track an underwater object equipped with a standalone [EchoTrace Pinger](/documentation/EN/EchoTrace/EchoTrace_Pinger_Specification_en.html) pinger, the EchoTrace host application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) must be installed on the operator's PC.
-
-- To track the position of divers equipped with [SubVox Diver](/documentation/EN/SubVox/SubVox_Diver_Specification_en.html) wireless voice communication diver stations, the diver tracking application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) must be installed on the operator's PC.
-
-Download the required software in advance. Installation is not required - just unpack the contents of the archive to any convenient location.
-
 Regardless of the underwater equipment used - wireless voice communication diver stations or a standalone pinger beacon - make sure that all equipment is fully charged before going out on the water and, if necessary, charge all devices.
 
 Since the devices have built-in power supplies based on **LiFePO4**, they have a very flat discharge characteristic, and it is difficult to determine the charge level of the built-in power supply. Therefore, it is recommended to charge all devices no earlier than 1–2 days before use.
@@ -141,7 +133,7 @@ If the buoy battery has less than 20% charge remaining, the information indicato
 
 If the battery is critically discharged, the buoy will switch off automatically after reporting its number; in this case, both indicators will also be off. The buoy must be put on charge *immediately* to prevent failure of the built-in power supply.
 
-If everything is done correctly and the upper parts of the buoys have a good view of the sky, after some time (usually no more than 1–2 minutes) you will be able to see the positions of the buoys in the main application window.
+Allow the GNSS receivers to obtain a position fix while the upper parts of the buoys have a clear view of the sky. Check the status indicators described above before deployment.
 
 After that, you can place the buoys on the water surface.
 
@@ -177,7 +169,7 @@ When charging is complete, disconnect the charger from the mains and detach the 
 
 #### 2.1.2.2. Connecting the service cable
 
-Connecting the service cable may be required to change the address of the buoy, to determine its serial number or to update the software.
+Connecting the service cable may be required to change the address of the buoy, to determine its serial number or to update the firmware.
 The service cable is connected using the supplied adapter, which is plugged into the group of contacts located in the lower part of the surface block of the device. The adapter connection is shown below.
 
 <table>
@@ -187,8 +179,7 @@ The service cable is connected using the supplied adapter, which is plugged into
 </tbody>
 </table>
 
-After connecting the adapter and cable to the buoy, connect it to a PC on which you install the required software:
-- the firmware update utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) for updating the software
+After connecting the adapter and cable to the buoy, connect the service cable to a PC. For service instructions, contact [support@trackdyne.com](mailto:support@trackdyne.com).
 
 To switch on the buoy, place its lower part in the water so that the water detector contacts are submerged.
 After completing the service operations, switch off the buoy and disconnect the service adapter.
@@ -260,7 +251,7 @@ It is easy to check that the pinger beacon is working by lowering it into the wa
 
 Before operation, the radio modem must be connected to a [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html) autonomous power supply. Before using the autonomous power supply and interface converter, read its [user's manual](/documentation/EN/VigilArc/VigilArc_Deck_Users_manual_en.html).
 
-Connect the radio modem cable to the **VigilArc Deck** autonomous power supply, and connect the latter to the PC on which the application appropriate to the system configuration is installed. Then switch on the power supply.
+Connect the radio modem cable to the **VigilArc Deck** autonomous power supply, and connect the latter to the host PC. Then switch on the power supply.
 
 After power is applied, the radio modem's indicator turns on (blinks). The radio modem has a two-color indicator. One of the colors lights up synchronously with the arrival of messages from the buoys over the radio channel, thereby signaling that communication with the buoys is established, while the other lights up when the next batch of data is received from the built-in GNSS receiver, and goes out if the data is valid. If it stays lit continuously, this indicates that the built-in GNSS module has not yet determined its own location.
 
@@ -281,7 +272,9 @@ Keep in mind the factors that reduce the efficiency of the system:
 
 The location of an underwater object or objects (when working with divers equipped with [SubVox Diver](/documentation/EN/SubVox/SubVox_Diver_Specification_en.html) wireless voice communication diver stations) can be determined when the following conditions are met:
 
-- GNSS reception is available on all buoys, and the operator console receives radio signals from all buoys, i.e. the application displays the positions of all four buoys;
+- GNSS reception is available on all buoys, and position data from all four buoys reach the host system through the radio dongle;
+
+When tracking a pinger, the radio dongle provides [NMEA RMC and GGA output](/documentation/EN/EchoTrace/EchoTrace_RF_Dongle_Protocol_Specification_en.html) for a compatible chartplotter. Diver tracking requires the buoy measurements to be processed by an external host system.
 
 Additionally, when the system is configured to work with [SubVox Diver](/documentation/EN/SubVox/SubVox_Diver_Specification_en.html) diver stations:
 - the stations are correctly configured to work with the **EchoTrace** system;

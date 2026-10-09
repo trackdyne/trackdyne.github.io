@@ -34,15 +34,9 @@ Simply connect the navigation receiver to any chartplotter that supports [NMEA01
 - the geographic position of the object to which the pinger is attached
 - the object's course of movement
 
-When using the EchoTrace host application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)), the following are also available:
-- the positions of the navigation buoys and the charge levels of their built-in power sources;
-- the course and range to a reference point, which the user can select as one of the four buoys, the built-in navigation receiver [EchoTrace RF Dongle](/documentation/EN/EchoTrace/EchoTrace_RF_Dongle_Specification_en.html), or a point with an arbitrarily specified coordinate;
-- water temperature;
-- pinger supply voltage;
-
 ### When used with SubVox Diver diver stations
 
-The diver tracking application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) is required. In this case, the user has access to the positions of up to 255 divers, determined at the end of each voice transmission from a diver.
+[SubVox Diver](/documentation/EN/SubVox/SubVox_Diver_Specification_en.html) stations can emit a navigation signal at the end of each voice transmission. The buoy measurements must be processed by an external host system to calculate the diver's position. Assign a unique address to each diver station.
 
 <div style="page-break-after: always;"></div>
 

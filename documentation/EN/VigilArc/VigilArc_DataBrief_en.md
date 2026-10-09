@@ -46,8 +46,8 @@
 ## Distinctive features
 * Compactness, long range and maximum ease of use make it possible to use the **VigilArc** system to work with various **ROVs** and **AUVs**, as well as with **divers**, in any combination
 * The highly versatile beacons can be used either in a standalone version with a separate battery pack or integrated with the carrier for both power and data
-* The system supports integration with external sources of navigation data: **GNSS** with compass function (connected to the host PC). In this case, the system determines the absolute geographic coordinates of underwater objects, allows saving the track of movement of underwater objects and has GPS emulation functions for one of the selected beacons for integration with third-party software (for example, Hypack, SAS.Planet, etc.)
-* The VigilArc Array antenna is mounted on a pole over the side of almost any vessel and connected to a 12 V / 3.5 A power source and to a host PC (Windows 10 or later) – in this minimum configuration, the system determines the position of the beacons (azimuth and distance) relative to the antenna. When a GNSS receiver with compass function (**RMC, GGA, HDG**) is connected to the host PC, the system determines the geographic coordinates of the beacons and can transmit them (**RMC, GGA**) to any serial port, thereby emulating a GNSS receiver for the selected responder-beacon;
+* Measurements from the system can be combined with external **GNSS** position and compass data on a host computer to calculate the geographic coordinates of underwater objects.
+* The VigilArc Array antenna is mounted on a pole over the side of a vessel and connected to a 12 V / 3.5 A power source and a host PC. The antenna provides measurements of beacon azimuth and distance relative to the antenna.
 
 <div style="page-break-after: always;"></div>
 
@@ -63,7 +63,7 @@
 ## Interfacing schemes
 
 ### Working in relative coordinates
-To determine the **relative location** of the responder-beacons, the antenna is interfaced with a PC on which specialized open-source host software AzimuthSuite (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) is installed. The antenna is connected to the PC via [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html), which converts the interface to USB and powers the antenna.
+For **relative location** measurements, the antenna is interfaced with a host PC using the [VigilArc communication protocol](/documentation/EN/VigilArc/VigilArc_Protocol_Specification_en.html). The antenna is connected to the PC via [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html), which converts the interface to USB and powers the antenna.
 
 In this case, the data and functions available to the user are:
 * **Azimuth** (horizontal angle) to the responder-beacons in use;
@@ -80,7 +80,7 @@ In this case, the data and functions available to the user are:
 <div style="page-break-after: always;"></div>
 
 ### Working in absolute coordinates
-To determine the **absolute location** of the responder-beacons, the antenna is interfaced with a PC on which specialized host software AzimuthSuite (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) is installed. The antenna is connected to the PC via [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html), which converts the interface to USB and powers the antenna. Additionally, an external **GNSS** system with compass function, operating via the **NMEA 0183** protocol (**RMC** and **HDT** sentences), is connected.
+To calculate the **absolute location** of the responder-beacons, the host PC must combine the antenna measurements with geographic position and heading data. The antenna is connected to the PC via [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html), which converts the interface to USB and powers the antenna. Additionally, an external **GNSS** system with compass function, operating via the **NMEA 0183** protocol (**RMC** and **HDT** sentences), is connected.
 
 <table>
 <thead><tr><th align="center" markdown="span">![VigilArc Array absolute scheme](/documentation/vigilarc_option2.png)</th></tr></thead>
@@ -89,11 +89,10 @@ To determine the **absolute location** of the responder-beacons, the antenna is 
 </tbody>
 </table>
 
-In this case, the following data and functions are available to the user:
+Combining these measurements provides the data needed to calculate:
 * Absolute **geographic coordinates** of the beacons and depth
 * **Azimuth** (relative to north)
 * **Distance**
-* Recording a track of the movement of underwater objects with the possibility of subsequent saving in Google KML format.
 
 <div style="page-break-after: always;"></div>
 

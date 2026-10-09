@@ -61,7 +61,7 @@ Responder-beacons in the standalone version are powered by battery packs based o
 
 ### 1.1. Specifications and documentation
 
-Full technical specifications of the device, the communication protocol specification, integration libraries and the e-mail address of technical support:  
+Full technical specifications of the device, the communication protocol specification and the e-mail address of technical support:  
 
 | Technical documentation <br/> website | Technical support |
 | :---: | :---: |

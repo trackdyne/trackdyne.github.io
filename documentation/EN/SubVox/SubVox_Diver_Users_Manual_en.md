@@ -46,12 +46,6 @@
   - [3.1. Storage and maintenance conditions](#31-storage-and-maintenance-conditions)
   - [3.2. Charging the built-in power supply](#32-charging-the-built-in-power-supply)
   - [3.3. Station configuration](#33-station-configuration)
-    - [3.3.1. Step 1](#331-step-1)
-    - [3.3.2. Step 2](#332-step-2)
-    - [3.3.3. Step 3](#333-step-3)
-    - [3.3.4. Step 4](#334-step-4)
-    - [3.3.5. Step 5](#335-step-5)
-    - [3.3.6. Step 6](#336-step-6)
 - [4. Obligations and disclaimer](#4-obligations-and-disclaimer)
   - [4.1. Terms of replacement and free warranty service](#41-terms-of-replacement-and-free-warranty-service)
   - [4.2. Limitation of the manufacturer's liability](#42-limitation-of-the-manufacturers-liability)
@@ -207,25 +201,7 @@ The following can be configured on the station:
 - Channel identifier of the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) system (reserved for future versions, must be 0)
 - VAD (Voice Activity Detector) sensitivity and volume of the alert signals
 
-The station is configured by connecting it to a PC or using an Android-based device. In both cases, connect the station to the device using the USB service cable and switch the station on.
-When connecting to a smartphone or tablet running Android or HarmonyOS, an additional USB adapter, which is not included in the delivery set, may be required.
-
-#### 3.3.1. Step 1
-
-To configure the station using an Android or HarmonyOS device, download and install the latest version of the mobile configuration application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)).
-
-To configure the station using a PC, use the SubVox Diver configuration utility (PWA) (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)). The online utility requires a *Chromium*-based browser, such as Google Chrome, Edge, Vivaldi or Opera.
-If you need to configure the station using a PC without an Internet connection, you can save the application locally by downloading the SubVox Diver configuration utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) and unpacking it to a convenient location. To launch it, open index.html.
-
-#### 3.3.2. Step 2
-
-Disconnect the service cable from the PC or the Android/HarmonyOS device if it is connected.
-
-#### 3.3.3. Step 3
-
-If you are using a PC, open the SubVox Diver configuration utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) page. If you are using an Android/HarmonyOS device, launch the mobile configuration application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)).
-
-#### 3.3.4. Step 4
+Configuration commands and connection parameters are described in the [SubVox Diver communication protocol specification](/documentation/EN/SubVox/SubVox_Diver_Protocol_Specification_en.html). Use the USB service cable to connect the station to a host PC.
 
 Connect the service cable to the SubVox Diver station and switch the station on.
 To switch the device on without immersing it in water, you can place a wet wipe on the contacts shown in the figure:
@@ -242,58 +218,19 @@ You can also put the device in a container of water with the transducer down so 
 
 Make sure that the contact is reliable and the station is switched on: you will hear the switch-to-receive-mode tone in the headphones. If the channel number display setting is enabled, the seven-segment indicator on the top surface of the device will blink 1 time per second, showing the current communication channel number.
 
-#### 3.3.5. Step 5
-
-Connect the service cable to the PC or to the Android/HarmonyOS device.
-In some cases, it may be necessary to install a driver for the USB converter.
-
-On the PC, press the "Connect" button in the application, after which the browser will display a port selection dialog. Select the required port (usually USB Serial Port (COMXX), where XX is the port number). Then press the "Connect" button.
-
-On an Android/HarmonyOS device, in the **mobile configuration application**, press the **SubVox Diver configuration** button. Then press the "Connect" button.
-
-> Allow the application to access USB. The application may request access to geolocation, which is required by other applications, for example the positioning application. Access to geolocation is not required for configuring SubVox Diver diver stations.
-
-#### 3.3.6. Step 6
-
-If the station is switched on and the connection is established, the application screen will display information about the device:
-
-In the "Connection" section:
-
-- Device type
-- Serial number
-- Firmware version
-- Current settings
-
-In the "SETS2 Settings" section:
-
-- Communication channel number from [Table 1](#table-1---correspondence-of-the-channel-number-and-signal-parameters)
-- Volume of the sound effects (when switching to receive/transmit mode, when the charge of the built-in power supply is low)
-- VAD (Voice Activity Detector) sensitivity
-- Threshold for the low charge alert of the built-in power supply
-- Tracking function enabled/disabled flag (EchoTrace Mode).
-  - diver's address (identifier) in the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) system.
-  - channel identifier of the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) system (reserved for future use, must always be 0)
-
-The "Flags" subsection contains low-level device settings.
-- Bit 0 (PinsPrevail). If the function is active, the device will ignore the communication channel settings (the channel will always be 1).
-- Bits 1 to 6 are reserved for future versions
-- Bit 7 (CH Indicator). If the function is active, the device uses the seven-segment indicator to display the current communication channel number and to indicate a low charge of the built-in power supply. When the voltage is below the set threshold, the indicator blinks 2 times per second. At normal voltage, it blinks 1 time per second.
-
-After changing the settings, transfer them to the device by pressing the "Save Settings" button.
-
-> CAUTION! For the settings to be saved in the internal flash memory of the device, the "Write to Flash" checkbox must be selected.
+Connect the service cable to the host PC and follow the [communication protocol specification](/documentation/EN/SubVox/SubVox_Diver_Protocol_Specification_en.html) to read and change device settings. Confirm that the settings have been retained after switching the station off and on.
 
 > We recommend using channel 8, because the frequency band used in this channel allows the most efficient use of the analog path of the [SubVox Diver](/documentation/EN/SubVox/SubVox_Diver_Specification_en.html) and [SubVox Topside](/documentation/EN/SubVox/SubVox_Topside_Specification_en.html) stations.
 
 > **When diving together, always check carefully that all devices are set to the same channel!**
 
-The **EchoTrace Mode** checkbox controls the built-in diver tracking function. When the tracking function is enabled, at the end of each voice transmission from a diver (after the PTT button is released), the station will emit a special navigation signal that is received by the buoys of the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) system, which makes it possible to determine the geographic position of the diver.
+The tracking setting controls the built-in diver tracking function. When the tracking function is enabled, at the end of each voice transmission from a diver (after the PTT button is released), the station will emit a special navigation signal that is received by the buoys of the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) system, which makes it possible to determine the geographic position of the diver.
 
-The **EchoTrace Diver ID** input field sets the address (identifier) of the diver that will be displayed on the map.
+The diver identifier sets the address used to distinguish the station in tracking data.
 
 > When working with the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) system, it is very important to set a different address on each diver station, otherwise the locations of different divers with the same addresses will be displayed as a single track.
 
-If you do not plan to use the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) tracking system, be sure to clear the **EchoTrace Mode** checkbox: this will save battery power and eliminate the additional pause after a voice transmission during which the navigation signal is emitted.
+If you do not plan to use the [EchoTrace](/documentation/EN/EchoTrace/EchoTrace_DataBrief_en.html) tracking system, disable the tracking function: this will save battery power and eliminate the additional pause after a voice transmission during which the navigation signal is emitted.
 
 <div style="page-break-after: always;"></div>
 
