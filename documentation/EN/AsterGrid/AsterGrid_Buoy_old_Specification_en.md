@@ -9,20 +9,18 @@
 ## KEY FEATURES
 
 * **High-performance combined GPS/GLONASS receiver**
-* **Rugged, durable, easily noticeable, maintenance-free housing**
+* **Rugged, durable, easily noticeable housing**
 * **Simultaneous positioning for an unlimited number of [AsterGrid Node](/documentation/EN/AsterGrid/AsterGrid_Node_Specification_en.html)/[AsterGrid Nav](/documentation/EN/AsterGrid/AsterGrid_Nav_Specification_en.html) devices**
-* **Long battery life of up to 48 hours**
-* **Automatic activation in water**
+* **Long battery life of up to 24 hours**
 * **Reliable and noise-resistant digital broadband underwater acoustic communication technology**
 
 ## DESCRIPTION
 
 The **AsterGrid Buoy** GNSS-equipped sonobuoy, in a set of four such devices, forms a floating long navigation base,
 which supports the simultaneous positioning of an unlimited number of [AsterGrid Node](/documentation/EN/AsterGrid/AsterGrid_Node_Specification_en.html)/[AsterGrid Nav](/documentation/EN/AsterGrid/AsterGrid_Nav_Specification_en.html) navigation receivers.  
+The device is made in the form of a plastic cylinder measuring Ø150x600 mm, with an underwater acoustic transmitting transducer on a cable.
 
-The device consists of two blocks potted in a polyurethane compound: an underwater block, which houses the LiFePO4 battery, and a surface block, which houses the underwater acoustic transmitter and the GNSS receiver. The blocks are connected to each other by a plastic tube on which additional buoyancy blocks are mounted. The device is equipped with a light indication system for the status and the sequence number of the buoy in the set: the light sources are located in the upper part of the surface block, which is made of transparent polymer with the addition of a phosphor.
-AsterGrid Buoy buoys switch on automatically when immersed in water and switch off automatically when taken out of the water.
-For attachment to an anchor line, load-bearing eyes are provided in the lower part of the battery block.
+It has positive buoyancy and a load-bearing eye for attaching an anchor.
 
 _________
 
@@ -32,11 +30,11 @@ _________
 
 | PARAMETER | VALUE |
 | :--- | :--- |
-| DIMENSIONS (Ø x h) | 125 x 790 mm |
-| WEIGHT (dry) | 3.8 kg |
+| DIMENSIONS (Ø x h) | 146 x 597 mm |
+| WEIGHT (dry) | 4.8 kg |
 | EXCESS BUOYANCY | 1 kg |
 | CARRIER FREQUENCY | 20100 Hz |
-| MAXIMUM BATTERY LIFE | 48 hours |
+| MAXIMUM BATTERY LIFE | 24 hours |
 | MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 3000 m |
 | MAXIMUM ACOUSTIC SOURCE LEVEL | 170 dB re 1 μPa @ 1 m |
 | MAXIMUM PERMISSIBLE DISTANCE TO OTHER BUOYS OF THE SET<sup>[2](#footnote2),[3](#footnote3)</sup> | 700 m |
@@ -44,16 +42,10 @@ _________
 | MAXIMUM VELOCITY RELATIVE TO RECEIVERS | +/- 1.8 m/s  |
 | OPERATING TEMPERATURE RANGE | -10 .. 50 °C |
 | REFERENCE ELLIPSOID | WGS-84 |
-| BUILT-IN BATTERY TYPE | LiFePO4 |
-| BUILT-IN BATTERY CAPACITY | 76 W·h |
-| UNDERWATER ACOUSTIC TRANSMITTER CABLE LENGTH | 1 m |
-| FULL CHARGE TIME FROM 220 V / 50 Hz MAINS | 5 h |
-
-## ADDITIONAL INFORMATION
-
-| [MSDS OF THE BUILT-IN POWER SUPPLY](/documentation/EN/Misc/AsterGrid_Buoy_v3_LiFEPO4_msds_en.html) | [ELECTRONIC VERSION OF THIS DOCUMENT](/documentation/EN/AsterGrid/AsterGrid_Buoy_Specification_en.html) |
-| :---: | :---: |
-| ![image](/documentation/AsterGrid_Buoy_v3_LiFEPO4_msds_en_qr.png) | ![image](/documentation/AsterGrid_Buoy_Specification_en_qr.png) |
+| BUILT-IN BATTERY TYPE | Lead-acid |
+| BUILT-IN BATTERY CAPACITY | 48 W·h |
+| UNDERWATER ACOUSTIC TRANSMITTER CABLE LENGTH | 1.1 m |
+| FULL CHARGE TIME FROM 220 V / 50 Hz MAINS | 10 h |
 
 ________________
 <a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which signal reception is possible, based on the electro-acoustic parameters of the transmitter and receiver, the spatial decrease in the intensity of sound energy, attenuation in the medium and the acoustic noise level.  

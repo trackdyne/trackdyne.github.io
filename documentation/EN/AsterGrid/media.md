@@ -1,14 +1,14 @@
-[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en) ❯ **AsterGrid: tracks**
+[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **AsterGrid: Media**
 
 <p align="center" markdown="span">
 ![Trackdyne](/documentation/logo.svg)<br/>
 [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com)
 </p>
 
-## AsterGrid media: tracks
+## AsterGrid media, tracks, etc.
 
 <table>
-<thead><tr><th align="left" markdown="span">Diver's movement track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en)</th></tr></thead>
+<thead><tr><th align="left" markdown="span">Diver's track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html)</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">23 October 2022</td></tr>
 <tr><td align="left" markdown="span">[🗺 Diving Center "Spas-Kamenka" (Google Maps)](https://goo.gl/maps/JhHLn1t4AWQ5sQvd6)</td></tr>
@@ -20,50 +20,50 @@
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">Diver's movement track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en)</th></tr></thead>
+<thead><tr><th align="left" markdown="span">Diver's track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html)</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">18 September 2022</td></tr>
-<tr><td align="left" markdown="span">[Moscow river, Moscow, Russia (Google Maps)](https://goo.gl/maps/zJtaqhawt4GzD3Em8)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Moscow River (Google Maps)](https://goo.gl/maps/zJtaqhawt4GzD3Em8)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (KML)](/documentation/AsterGrid_Tracks_09-29-24.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/AsterGrid_Tracks_09-29-24.jpg)</td></tr>
 </tbody>
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">Diver's movement track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en)</th></tr></thead>
+<thead><tr><th align="left" markdown="span">Diver's track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html)</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">08 August 2022</td></tr>
-<tr><td align="left" markdown="span">[Moscow river, Moscow, Russia (Google Maps)](https://goo.gl/maps/zJtaqhawt4GzD3Em8)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Moscow River (Google Maps)](https://goo.gl/maps/zJtaqhawt4GzD3Em8)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (KML)](/documentation/AsterGrid_Tracks_23-32-48.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/AsterGrid_Tracks_23-32-48.jpg)</td></tr>
 </tbody>
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">Diver's movement track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en)</th></tr></thead>
+<thead><tr><th align="left" markdown="span">Diver's track obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html)</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">22 November 2020</td></tr>
-<tr><td align="left" markdown="span">[Khimkinskoye Vodokhranilishche, Moscow, Russia (Google Maps)](https://goo.gl/maps/T3ipWGqQJ65j9p5w7)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Khimki Reservoir, Moscow (Google Maps)](https://goo.gl/maps/T3ipWGqQJ65j9p5w7)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (KML)](/documentation/astergrid_node_track_22-10-2020-13-39-24.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/astergrid_node_track_22-10-2020-13-39-24.jpg)</td></tr>
 </tbody>
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">ROV navigation via [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en)</th></tr></thead>
+<thead><tr><th align="left" markdown="span">ROV track in a shallow pond obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html)</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">11 November 2020</td></tr>
-<tr><td align="left" markdown="span">[Yujzniy pond, Volgograd, Russia (Google Maps)](https://goo.gl/maps/xjJrX28KmWDdJxLC9)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Yuzhny Pond, Volgograd (Google Maps)](https://goo.gl/maps/xjJrX28KmWDdJxLC9)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (KML)](/documentation/AsterGrid_Tracks_14-31-20.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/AsterGrid_Tracks_14-31-20.jpg)</td></tr>
 </tbody>
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">ROV & diver simultaneous navigation via [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en)</th></tr></thead>
+<thead><tr><th align="left" markdown="span">Simultaneous navigation of a diver and an ROV with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html)</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">7 November 2020</td></tr>
-<tr><td align="left" markdown="span">[Amerievsky dolomite quarry, Moskow, Russia (Google Maps)](https://goo.gl/maps/BftxRy1cKA6ZsUUP6)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Ameryevsky Quarry, Moscow (Google Maps)](https://goo.gl/maps/BftxRy1cKA6ZsUUP6)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (Diver, KML)](/documentation/7-11-2020_17-30.kml)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (ROV, KML)](/documentation/AsterGrid_Tracks_17-30-59.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/7-11-2020_17-30.jpg)</td></tr>
@@ -71,20 +71,20 @@
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">Working with [AsterGrid/DiveNET GPS](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en) underwater GPS</th></tr></thead>
+<thead><tr><th align="left" markdown="span">[AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html) underwater GPS in Monterey Bay</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">3 March 2020</td></tr>
-<tr><td align="left" markdown="span">[Monterey Bay, California, US (Google Maps)](https://goo.gl/maps/SZ3tC49dcVGnequB7)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Monterey Bay, California, US (Google Maps)](https://goo.gl/maps/SZ3tC49dcVGnequB7)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (KML)](/documentation/astergrid_nav_track_03-03-2020.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/astergrid_nav_track_03-03-2020.jpg)</td></tr>
 </tbody>
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">Palying with a small ROV equipped with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en) underwater GPS</th></tr></thead>
+<thead><tr><th align="left" markdown="span">Tracks of a small ROV obtained with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html)</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">18 April 2019</td></tr>
-<tr><td align="left" markdown="span">[Pichuga river, Volgograd Oblast, RU (Google Maps)](https://goo.gl/maps/Qix3nK84i7inM3FGA)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Pichuga River, Volgograd Oblast (Google Maps)](https://goo.gl/maps/Qix3nK84i7inM3FGA)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (1, KML)](/documentation/astergrid_node_track_18042019_092548.kml)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (2, KML)](/documentation/astergrid_node_track_18042019_131504.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/astergrid_node_track_18042019_092548.jpg)</td></tr>
@@ -92,15 +92,14 @@
 </table>
 
 <table>
-<thead><tr><th align="left" markdown="span">Working with [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en) underwater GPS</th></tr></thead>
+<thead><tr><th align="left" markdown="span">California: divers try [AsterGrid](/documentation/EN/AsterGrid/AsterGrid_DataBrief_en.html) underwater GPS</th></tr></thead>
 <tbody>
 <tr><td align="left" markdown="span">30 October 2018</td></tr>
-<tr><td align="left" markdown="span">[Casino Point Underwater Park, Avalon, California, US (Google Maps)](https://goo.gl/maps/Qv7d9sCtDehMiVtg9)</td></tr>
+<tr><td align="left" markdown="span">[🗺 Casino Point Underwater Park, Avalon, California, US (Google Maps)](https://goo.gl/maps/Qv7d9sCtDehMiVtg9)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (1, KML)](/documentation/astergrid_nav_track_30-10-2018_13-40.kml)</td></tr>
 <tr><td align="left" markdown="span">[🡇 Download track (2, KML)](/documentation/astergrid_nav_track_30-10-2018_21-42.kml)</td></tr>
 <tr><td align="left" markdown="span">![](/documentation/astergrid_nav_track_30-10-2018_13-40.jpg)</td></tr>
 </tbody>
 </table>
 
-
-## [To all media](/media_videos_en)
+## [Back to all media](/media_videos_en.html)
