@@ -13,7 +13,6 @@
 ## VigilArc
 ### Ultra-short baseline (USBL) / long baseline (LBL) ranging system
 #### VigilArc
-Available since June 2022
 * [VigilArc USBL: Quick start - a sheet of essential links](/documentation/EN/VigilArc/VigilArc_fast_start_en.html)
 * [VigilArc USBL: Data brief](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html)
 * [VigilArc USBL: User's manual](/documentation/EN/VigilArc/VigilArc_Users_manual_en.html)
@@ -31,8 +30,6 @@ Available since June 2022
 * [VigilArc-OEM35 USBL: Product passport (template)](/documentation/EN/VigilArc/VigilArc_OEM35_technical_passport_en.html)
 * [VigilArc-35 USBL: Product passport (template)](/documentation/EN/VigilArc/VigilArc_35_technical_passport_en.html)
 * [VigilArc: Version history & changes](/documentation/EN/VigilArc/VigilArc_version_history_en.html)
-
-#### Common VigilArc documents
 * [VigilArc Deck (power supply and switching unit): Device specification](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html)
 * [VigilArc Deck (power supply and switching unit): User's manual](/documentation/EN/VigilArc/VigilArc_Deck_Users_manual_en.html)
 * [Compatibility data sheet for positioning and heading systems](/documentation/EN/VigilArc/VigilArc_GNSS_requirements_en.html)
