@@ -1,7 +1,7 @@
 [Main](/) ❯ [Miscellaneous info](/misc_en.md) ❯ **QR links sheet**
 
 <div style="page-break-after: always;"></div>
-<p align="center"><img src="/documentation/logo.png"/></p>
+<p align="center"><img src="/documentation/logo.svg"/></p>
 
 _______  
 
@@ -15,7 +15,7 @@ _______
 
 
 <div style="page-break-after: always;"></div>
-<p align="center"><img src="/documentation/logo.png"/></p>
+<p align="center"><img src="/documentation/logo.svg"/></p>
 
 _______  
 
@@ -29,7 +29,7 @@ _______
 
 
 <div style="page-break-after: always;"></div>
-<p align="center"><img src="/documentation/logo.png"/></p>
+<p align="center"><img src="/documentation/logo.svg"/></p>
 
 _______  
 
@@ -43,7 +43,7 @@ _______
 
 
 <div style="page-break-after: always;"></div>
-<p align="center"><img src="/documentation/logo.png"/></p>
+<p align="center"><img src="/documentation/logo.svg"/></p>
 
 _______  
 

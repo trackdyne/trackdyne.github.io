@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![EchoTrace RF dongle](/documentation/echotrace_rf_dongle.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![EchoTrace RF dongle](/documentation/echotrace_rf_dongle.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **EchoTrace RF dongle** - Navigation receiver <br/> Device specification |
 

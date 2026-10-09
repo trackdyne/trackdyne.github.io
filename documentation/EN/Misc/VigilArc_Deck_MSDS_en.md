@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) |  Version 1 <br/> 20.02.2022 |
+| ![Trackdyne](/documentation/logo.svg) |  Version 1 <br/> 20.02.2022 |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | PMVR.348290.001 LiFePO4 40 W·h battery pack <br/> as part of VigilArc Deck <br/> Material safety datasheet (MSDS) |
 

@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![logo](/documentation/vexa_mini_transducer.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![logo](/documentation/vexa_mini_transducer.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **Vexa Mini** underwater acoustic modem <br/> Device specifications |
 

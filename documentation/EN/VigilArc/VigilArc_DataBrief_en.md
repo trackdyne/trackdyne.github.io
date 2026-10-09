@@ -1,7 +1,7 @@
 [Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en) ❯ **VigilArc USBL: Data brief**
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![logo](/documentation/vigilarc_package.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![logo](/documentation/vigilarc_package.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc USBL** <br/> Data brief |
 

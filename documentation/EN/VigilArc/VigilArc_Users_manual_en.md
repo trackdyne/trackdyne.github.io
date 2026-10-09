@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![qr_link](/documentation/vigilarc_users_manual_qr_link.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![qr_link](/documentation/vigilarc_users_manual_qr_link.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc USBL** - Underwater acoustic tracking system <br/> User's manual |
 

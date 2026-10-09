@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![logo](/documentation/def_modem_black.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![logo](/documentation/def_modem_black.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **Vexa Max** underwater acoustic modem <br/> Device specifications |
 

@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) |  Version 1 <br/> 20.02.2022 |
+| ![Trackdyne](/documentation/logo.svg) |  Version 1 <br/> 20.02.2022 |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | PMVR.134098.002 LiFePO4 battery pack <br/> as part of SubVox Diver <br/> Material safety datasheet (MSDS) |
 
