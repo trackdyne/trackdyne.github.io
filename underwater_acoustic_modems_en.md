@@ -29,6 +29,5 @@
 * [3D model (Fusion360 f3d): tank bracket for Vexa Mini](/documentation/Vexa_Mini_holder_tank.f3d)
 * [3D model (STEP): flat bracket for Vexa Mini](/documentation/Vexa_Mini_holder_flat.step)
 * [3D model (Fusion360 f3d): flat bracket for Vexa Mini](/documentation/Vexa_Mini_holder_flat.f3d)
-* [Product passport (template): Vexa Mini](/documentation/EN/Vexa/Vexa_technical_passport_en.html)
 
 ## [Back to main](/)
