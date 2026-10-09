@@ -1,0 +1,93 @@
+[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **VigilArc LX: Device specification**
+
+<details>
+  <summary><b>ℹ Recommendations for printing / saving as PDF</b></summary>
+  <br>
+  <ol>
+    <li>Press <b>Ctrl+P</b> (macOS: <b>Cmd+P</b>)</li>
+    <li>Select <b>"Save as PDF"</b> (Microsoft Print to PDF) as the printer</li>
+    <li>In <b>"Pages"</b>, enter a range that excludes the first and the last page</li>
+    <li>Disable <b>headers and footers</b> (title, URL, page numbers)</li>
+    <li>In <b>Chrome/Edge</b>: More settings → "Margins" → <b>None</b> | in <b>Firefox</b>: "Margins & Header/Footer" → <b>None</b></li>
+    <li>Click <b>Print</b> and choose where to save the PDF</li>
+  </ol>
+</details>
+
+<div style="page-break-after: always;"></div>
+
+| ![Trackdyne](/documentation/logo.svg) | ![VigilArc lx](/documentation/vigilarc_lbl_transceiver.png) |
+| :---: | ---: |
+| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc LX** — LBL transceiver of the **VigilArc LBL** navigation system <br/> Device specification |
+
+## KEY FEATURES
+
+* **Extremely small size and weight**
+* **Communication range up to 3000<sup>[1](#footnote1)</sup> m**
+* **Reliable digital underwater acoustic communication resistant to multipath propagation**
+* **Low power consumption (Rx/Tx) 0.33/10 W**
+* **Built-in pressure/temperature sensor**
+* **Sequential interrogation of responder-beacons with arbitrary addresses**
+* **Monoblock design**
+
+## DESCRIPTION
+
+**VigilArc LX** is the transceiver of the long baseline navigation system [VigilArc LBL](/documentation/EN/VigilArc/VigilArc_LBL_DataBrief_en.html).
+
+The device is designed to be placed on an underwater object in order to measure the ranges to the [VigilArc Tag](/documentation/EN/VigilArc/VigilArc_Tag_Specification_en.html) responder-beacons, whose positions are known.
+
+Unlike [VigilArc L](/documentation/EN/VigilArc/VigilArc_L_Specification_en.html), which works with a fixed navigation base of 3 or 4 beacons with addresses 1-4 using the common request scheme and is limited by a base size of 265 m, VigilArc LX provides sequential interrogation of 3 or 4 beacons with arbitrary addresses without restrictions on the geometry of the base. The only limitation is the acoustic communication range determined by the link budget (up to 3000 m).
+The position of the transceiver is calculated by the external [VigilArc SL](/documentation/EN/VigilArc/VigilArc_SL_Specification_en.html) device based on the measured ranges and the known coordinates of the beacons.
+
+**VigilArc LX** and [VigilArc L](/documentation/EN/VigilArc/VigilArc_L_Specification_en.html) use **the same hardware platform**.
+
+________________
+
+<div style="page-break-after: always;"></div>
+
+## TECHNICAL SPECIFICATIONS
+
+| PARAMETER | VALUE |
+| :--- | :--- |
+| DIMENSIONS (Ø x h) | 64 x 62 mm |
+| WEIGHT (dry) | 0.3 kg |
+| MAXIMUM DEPTH | 300 m |
+| DEPTH RESOLUTION | 0.1 m |
+| MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 3000 m |
+| ACOUSTIC SOURCE LEVEL | 170 dB re 1 μPa @ 1 m |
+| CARRIER FREQUENCY | 20100 Hz |
+| BUILT-IN TEMPERATURE SENSOR ACCURACY | 0.1 °C |
+| SUPPLY VOLTAGE | 12 V |
+| DATA LINE VOLTAGE | 0 .. 3.3 V |
+| BIT ERROR RATE | 10<sup>-6</sup> |
+| SNR<sup>[2](#footnote2)</sup> | -3 dB |
+| MAXIMUM RELATIVE VELOCITY | ± 2 m/s |
+| STARTUP TIME | 100 ms |
+| OPERATING TEMPERATURE RANGE | -5 .. 50 °C |
+| POWER CONSUMPTION (Rx/Tx) | 0.33 / 10 W |
+| INTERFACE | UART 9600 bit/s |
+| COMMUNICATION PROTOCOL | NMEA 0183 [PAZM](/documentation/EN/VigilArc/VigilArc_Protocol_Specification_en.html) |
+| MAXIMUM NUMBER OF BEACONS IN THE BASE | 4 |
+| CABLE LENGTH<sup>[3](#footnote3)</sup> | 0.5 m |
+| MAXIMUM RANGE UPDATE RATE<sup>[4](#footnote4)</sup> | PENDING |
+| NOMINAL RANGE MEASUREMENT ACCURACY (RMS)<sup>[5](#footnote5)</sup> | PENDING |
+
+________________
+- <a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received, based on electro-acoustic parameters of the transmitter and receiver, spatial decrease in the intensity of sound energy, attenuation in the medium and the acoustic noise level. The maximum communication range is not equivalent to the maximum operating range of the navigation system.
+- <a name="footnote2"><sup>2</sup></a> The value was obtained in a laboratory static experiment, without taking into account the multipath propagation effect.
+- <a name="footnote3"><sup>3</sup></a> The value can be changed on request.
+- <a name="footnote4"><sup>4</sup></a> Depends on the number of beacons in the set and their addresses; with sequential interrogation the update rate is lower than that of [VigilArc L](/documentation/EN/VigilArc/VigilArc_L_Specification_en.html).
+- <a name="footnote5"><sup>5</sup></a> PENDING.
+
+<div style="page-break-after: always;"></div>
+
+### CABLE WIRE ASSIGNMENT
+
+| WIRE COLOR | FUNCTION |
+| :--- | :---: |
+| 🟥 Red | + U<sub>supply</sub> |
+| 🟩 Green | Tx |
+| ⬜ White/Transparent | Rx |
+| 🟨 Yellow | SVC |
+| Shield | - U<sub>supply</sub> |
+
+<div style="page-break-after: always;"></div>
