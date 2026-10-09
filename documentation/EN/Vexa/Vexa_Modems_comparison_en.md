@@ -42,7 +42,7 @@
 ## Data rate modes
 
 All devices of the family can work with alternative firmware supporting different data rate modes of communication.
-The modes are not compatible with each other. The mode is changed by [re-flashing the device](/documentation/EN/Vexa/Vexa_FW_Updating_en.html).
+The modes are not compatible with each other. The mode is changed by re-flashing the device.
 
 |      | STRONG | EASY   | LITE   | HASTE |
 | :--- | :---:  | :---:  | :---:  | :---:  |
@@ -55,7 +55,7 @@ The modes are not compatible with each other. The mode is changed by [re-flashin
 ________________
 <a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received, based on the electro-acoustic parameters of the transmitter and receiver, the spatial decrease in the intensity of sound energy, attenuation in the medium and the level of acoustic noise.  
 <a name="footnote2"><sup>2</sup></a> When [Vexa Max OEM](/documentation/EN/Vexa/Vexa_Max_OEM_Specification_en.html), [Vexa Max](/documentation/EN/Vexa/Vexa_Max_Specification_en.html) and [Vexa Locator Modem](/documentation/EN/Vexa/Vexa_Locator_Modem_Specification_en.html) are operated in any combination. The maximum communication range with standard [Vexa Mini](/documentation/EN/Vexa/Vexa_Mini_Specification_en.html) modems is 1000 meters. The parameter is specified for the standard data rate mode - 78 bit/s.  
-<a name="footnote3"><sup>3</sup></a> The standard data rate mode of 78 bit/s provides the maximum communication range and noise immunity. Other modes are provided by [re-flashing the devices](/documentation/EN/Vexa/Vexa_FW_Updating_en.html).  
+<a name="footnote3"><sup>3</sup></a> The standard data rate mode of 78 bit/s provides the maximum communication range and noise immunity. Other modes are provided by re-flashing the devices.  
 <a name="footnote4"><sup>4</sup></a> The maximum depth is determined by the transducer. The modem's printed circuit board must be located in the user's one-atmosphere (normobaric) housing.  
 <a name="footnote5"><sup>5</sup></a> Operating depth of 1000 meters is provided when working with the deep-water transducer.  
 

@@ -100,7 +100,7 @@ The VigilArc Deck autonomous power supply and switching unit is made as a plasti
 
 ### 1.5. DOCUMENTATION AND FULL TECHNICAL SPECIFICATIONS
 
-Full technical specifications of the device, the communication protocol specification, integration libraries and the e-mail address of technical support:  
+Full technical specifications of the device, the communication protocol specification and the e-mail address of technical support:  
 
 | Technical documentation <br/> website | Technical support |
 | :---: | :---: |

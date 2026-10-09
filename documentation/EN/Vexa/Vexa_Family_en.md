@@ -58,7 +58,7 @@ The standard mode for **Vexa Mini** devices is the mode with a data rate of **78
 
 All devices of the **Vexa Mini** family support alternative modes providing data rates of **156**, **314** and **634 bit/s**. The higher the rate, the lower the noise immunity and, accordingly, the reliability and range of communication.
 
-Different data rate modes are not compatible with each other. Switching the modem to another data rate mode is done by [replacing its firmware](/documentation/EN/Vexa/Vexa_FW_Updating_en.html).
+Different data rate modes are not compatible with each other. Switching the modem to another data rate mode is done by replacing its firmware.
 
 <div style="page-break-after: always;"></div>
 
@@ -162,15 +162,5 @@ All devices of the **Vexa Mini** family interface with the user system via the 3
 by default. This requires no additional integration or configuration.
 
 To operate in command mode, a simple [NMEA-like ASCII protocol](/documentation/EN/Vexa/Vexa_Protocol_Specification_en.html) is used.
-
-Integration software and examples for **Vexa** devices include:
-* Arduino integration libraries with usage examples (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
-* Legacy Arduino integration library (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
-* .NET integration library (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
-* Modem host demonstration application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
-* Virtual long baseline navigation example using two [Vexa Mini](/documentation/EN/Vexa/Vexa_Mini_Specification_en.html) modems (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
-* Legacy Arduino modem examples (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
-
-Host applications, libraries and integration examples for **Vexa Mini** devices are available on request from [support@trackdyne.com](mailto:support@trackdyne.com).
 
 <div style="page-break-after: always;"></div>

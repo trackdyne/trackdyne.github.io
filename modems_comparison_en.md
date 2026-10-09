@@ -36,7 +36,7 @@ ________________
 
 <a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received based on the electroacoustic parameters of the transmitter and receiver, spatial decrease in the intensity of sound energy, attenuation in the medium and underwater acoustic noise level.  
 <a name="footnote2"><sup>2</sup></a> When [Vexa Max OEM](/documentation/EN/Vexa/Vexa_Max_OEM_Specification_en.html), [Vexa Max](/documentation/EN/Vexa/Vexa_Max_Specification_en.html) and [Vexa Locator Modem](/documentation/EN/Vexa/Vexa_Locator_Modem_Specification_en.html) operate in any combination. The maximum communication range with standard [Vexa Mini](/documentation/EN/Vexa/Vexa_Mini_Specification_en.html) modems is 1000 meters. The parameter is specified for the standard data rate mode - 78 bit/s.  
-<a name="footnote3"><sup>3</sup></a> The standard data rate mode of 78 bit/s provides maximum communication range and noise immunity. Other modes are available by [reflashing the devices](/documentation/EN/Vexa/Vexa_FW_Updating_en.html).  
+<a name="footnote3"><sup>3</sup></a> The standard data rate mode of 78 bit/s provides maximum communication range and noise immunity. Other modes are available by reflashing the devices.  
 <a name="footnote4"><sup>4</sup></a> The maximum depth is determined by the transducer. The modem's printed circuit board must be located in the user's one-atmosphere (normobaric) housing.  
 <a name="footnote5"><sup>5</sup></a> An operating depth of 1000 meters is achieved when using the deep-water transducer.  
 <a name="footnote6"><sup>6</sup></a> Maximum power and communication range are achieved at a supply voltage of 12 V.

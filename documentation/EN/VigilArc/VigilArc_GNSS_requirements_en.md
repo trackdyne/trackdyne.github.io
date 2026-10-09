@@ -24,11 +24,7 @@
 <div style="page-break-after: always;"></div>
 
 ## 1. General information
-The [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html) system, can convert the coordinates of the responder-beacons from the local polar coordinate system to the
-geographic one in real time.
-
-For this purpose, the specialized software needs data on the geographic position of the [VigilArc Array](/documentation/EN/VigilArc/VigilArc_Array_Specification_en.html) antenna
-and on its orientation relative to the cardinal directions.
+Converting [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html) responder-beacon measurements from local polar coordinates to geographic coordinates requires the geographic position and heading of the [VigilArc Array](/documentation/EN/VigilArc/VigilArc_Array_Specification_en.html) antenna. The host system must combine these data with the antenna measurements.
 
 Two options are possible:  
 * The data on the geographic position and orientation of the antenna are generated using a **GNSS compass**. This option is the most
@@ -39,19 +35,14 @@ using a magnetic compass
 <div style="page-break-after: always;"></div>
 
 ## 2. Protocol requirements
-The specialized software can connect two additional sources of navigation data via a serial connection. The devices are connected physically either using
-physical serial ports (COM, if the PC is equipped with them) or using the ports of interface converters **RS-232/422/485 <-> USB.**
+For integration with a host computer, navigation data sources can use serial ports or **RS-232/422/485 to USB** interface converters. Check the electrical interface of each device before connecting it.
 
-The specialized software supports the **NMEA 0183** protocol, and in particular, the following sentence types:
-* HDG - Orientation data relative to the cardinal directions (magnetic compass)
-* HDT - Orientation data relative to the cardinal directions (GNSS compass)
-* RMC - Geographic position data (GNSS receiver)
+The following **NMEA 0183** sentences provide the required data:
+* HDG - Heading from a magnetic compass
+* HDT - True heading from a GNSS compass
+* RMC - Geographic position from a GNSS receiver
 
-For correct operation, either the pair of sentences **RMC + HDT** (provided by a GNSS compass) or **RMC + HDG** (GNSS receiver and magnetic
-compass) is required.
-
-If the specialized software receives both types of angular orientation sentences (**HDG** and **HDT**), the software will
-use only the data from the **HDT** sentences.
+Use either **RMC + HDT** from a GNSS compass or **RMC + HDG** from a GNSS receiver and magnetic compass. The host system must interpret the heading reference correctly when calculating geographic coordinates.
 
 <div style="page-break-after: always;"></div>
 

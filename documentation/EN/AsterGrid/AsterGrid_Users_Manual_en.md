@@ -175,7 +175,7 @@ When charging is complete, disconnect the charger from the mains and detach the 
 
 #### 2.1.6. Connecting the service cable
 
-Connecting the service cable may be required to change the address of the buoy, to determine its serial number or to update the software.
+Connecting the service cable may be required to change the address of the buoy, to determine its serial number or to update the firmware.
 The service cable is connected using the supplied adapter, which is plugged into the group of contacts located in the lower part of the surface block of the device. **Figure 8** shows how the adapter is connected.
 
 <table>
@@ -185,9 +185,7 @@ The service cable is connected using the supplied adapter, which is plugged into
 </tbody>
 </table>
 
-After connecting the adapter with the cable to the buoy, connect it to a PC and install the required software on it:
-- the buoy configuration utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) to determine the serial number of the device and to set the address
-- the firmware update utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) to update the software
+After connecting the adapter and cable to the buoy, connect the service cable to a PC. For service instructions, contact [support@trackdyne.com](mailto:support@trackdyne.com).
 
 To switch the buoy on, place its lower part in the water so that the water detector contacts are immersed.
 After the service operations are completed, switch the buoy off and disconnect the service adapter.
@@ -384,9 +382,7 @@ If the Bluetooth connection is made while the device is in the navigation mode, 
 Thus, the diver's navigation receiver [AsterGrid Nav](/documentation/EN/AsterGrid/AsterGrid_Nav_Specification_en.html) can act as a Bluetooth GNSS receiver, whose data can be used to display the location of the diver in real time on a mapping device, for example on a diver's tablet that supports connecting an external GNSS receiver via Bluetooth.
 Keep in mind that radio waves hardly penetrate the water column, and for a stable Bluetooth connection underwater the devices (the interface unit of the diver's navigation receiver and the mapping device) must be located as close to each other as possible (with their housings touching).
 
-When the device is on the charging pad and in the service mode, the Bluetooth connection is used to change the settings of the diver's navigation receiver using the specialized AsterGrid Nav configuration utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)).
-
-Establishing a Bluetooth connection and working with the AsterGrid Nav configuration utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) software is described in the document [AsterGrid Nav Host: User's manual](/documentation/EN/AsterGrid/AsterGrid_Nav_Host_Users_Manual_en.html).
+When the device is on the charging pad and in service mode, Bluetooth provides access to its settings. For configuration assistance, contact [support@trackdyne.com](mailto:support@trackdyne.com).
 
 #### 2.3.3. Storage and maintenance
 The diver's navigator [AsterGrid Nav](/documentation/EN/AsterGrid/AsterGrid_Nav_Specification_en.html) has no special storage and maintenance requirements, except for the following:

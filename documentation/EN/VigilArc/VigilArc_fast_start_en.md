@@ -25,10 +25,6 @@
 | | |
 | <img width="270" height="270" alt="image" src="/documentation/VigilArc_Users_manual_en_qr.png" /> | VigilArc USBL: User's manual |
 | | |
-| <img width="222" height="222" alt="image" src="/documentation/trackdyne_software_request_qr.png" /> | Browser-based positioning application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) |
-| | |
-| <img width="270" height="270" alt="image" src="/documentation/trackdyne_software_request_qr.png" /> | Mobile configuration application for Android/HarmonyOS (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) |
-| | |
 | <img width="198" height="198" alt="image" src="/documentation/trackdyne_support_email_qr.png" /> | support@trackdyne.com |
 
 <div style="page-break-after: always;"></div>
