@@ -26,9 +26,6 @@
 * [VigilArc Array 35 (direction-finding antenna): Device specification:](/documentation/EN/VigilArc/VigilArc_Array_35_Specification_en.html)
 * [VigilArc Tag 35 (responder-beacon): Device specification](/documentation/EN/VigilArc/VigilArc_Tag_35_Specification_en.html)
 * [VigilArc USBL: Communication protocol specification](/documentation/EN/VigilArc/VigilArc_Protocol_Specification_en.html)
-* [VigilArc USBL: Product passport (template)](/documentation/EN/VigilArc/VigilArc_technical_passport_en.html)
-* [VigilArc-OEM35 USBL: Product passport (template)](/documentation/EN/VigilArc/VigilArc_OEM35_technical_passport_en.html)
-* [VigilArc-35 USBL: Product passport (template)](/documentation/EN/VigilArc/VigilArc_35_technical_passport_en.html)
 * [VigilArc: Version history & changes](/documentation/EN/VigilArc/VigilArc_version_history_en.html)
 * [VigilArc Deck (power supply and switching unit): Device specification](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html)
 * [VigilArc Deck (power supply and switching unit): User's manual](/documentation/EN/VigilArc/VigilArc_Deck_Users_manual_en.html)
@@ -57,7 +54,6 @@
 * [AsterGrid Buoy: 3D model (STEP)](/documentation/AsterGrid_Buoy_v2.0_3D.STEP)
 * [AsterGrid Nav: 3D model (STEP)](/documentation/AsterGrid_Nav_v2.0_3D.step)
 * [AsterGrid Nav with navigation panel: 3D model (STEP)](/documentation/AsterGrid_Nav_with_compass_3D.step)
-* [AsterGrid: Product passport (template)](/documentation/EN/AsterGrid/AsterGrid_technical_passport_en.html)
 
 ## EchoTrace
 ### Long baseline tracking system
@@ -69,6 +65,5 @@
 * [EchoTrace Radio dongle: Device specification](/documentation/EN/EchoTrace/EchoTrace_RF_Dongle_Specification_en.html)
 * [EchoTrace: User's manual](/documentation/EN/EchoTrace/EchoTrace_Users_Manual_en.html)
 * [EchoTrace RF Dongle: Communication protocol specification](/documentation/EN/EchoTrace/EchoTrace_RF_Dongle_Protocol_Specification_en.html)
-* [Product passport (template)](/documentation/EN/EchoTrace/EchoTrace_technical_passport_en.html)
 
 ## [Back to main](/)

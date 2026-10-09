@@ -13,7 +13,5 @@
 * [User's manual: SubVox Diver](/documentation/EN/SubVox/SubVox_Diver_Users_Manual_en.html)
 * [Communication protocol specification: SubVox Diver](/documentation/EN/SubVox/SubVox_Diver_Protocol_Specification_en.html)
 * [Device specification: SubVox RF Dongle](/documentation/EN/SubVox/SubVox_RF_Dongle_Specification_en.html)
-* [Phone-T kit: Product passport (template)](/documentation/EN/SubVox/SubVox_T_package_technical_passport_en.html)
-* [Phone-S kit: Product passport (template)](/documentation/EN/SubVox/SubVox_S_package_technical_passport_en.html)
 
 ## [Back to main](/)
