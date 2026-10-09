@@ -1,4 +1,4 @@
-[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **VigilArc Array: Device specification**
+[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **VigilArc Array 35: Device specification**
 
 <details>
   <summary><b>ℹ Recommendations for printing / saving as PDF</b></summary>
@@ -17,12 +17,12 @@
 
 | ![Trackdyne](/documentation/logo.svg) | ![logo](/documentation/vigilarc_array.png) |
 | :---: | ---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Array** - **VigilArc USBL** direction-finding station <br/> Device specification |
+| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Array 35** - **VigilArc USBL** direction-finding station <br/> Device specification |
 
 ## KEY FEATURES
 
 * **Extremely small size and weight**
-* **Communication range up to 3000<sup>[1](#footnote1)</sup> m**
+* **Communication range up to 1000<sup>[1](#footnote1)</sup> m**
 * **Highly reliable digital underwater acoustic communication resistant to multipath propagation**
 * **Code division multiple access - up to 16 responder-beacons**
 * **Low power consumption (Rx/Tx) 0.5/10 W**
@@ -31,10 +31,10 @@
 
 ## DESCRIPTION
 
-**VigilArc Array** - direction-finding station of the ultra-short baseline system [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html).
+**VigilArc Array 35** - direction-finding station of the ultra-short baseline system [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html).
 
 The device uses a fixed-length signal with code division to determine the direction, range and depth
-of responder-beacons [VigilArc Tag](/documentation/EN/VigilArc/VigilArc_Tag_Specification_en.html).
+of responder-beacons [VigilArc Tag 35](/documentation/EN/VigilArc/VigilArc_Tag_35_Specification_en.html).
 
 With an external **GNSS** receiver and compass, the device determines the absolute coordinates of the responder-beacons.
 Up to 16 responder-beacons can be operated sequentially.
@@ -55,10 +55,10 @@ _________
 | WEIGHT (dry)<sup>[2](#footnote2)</sup> | 0.44 kg |
 | MAXIMUM DEPTH | 40 m |
 | NOMINAL DEPTH ACCURACY | 0.1 m |
-| MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 3000 m |
+| MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 1000 m |
 | NOMINAL HORIZONTAL ANGLE OF ARRIVAL ACCURACY<sup>[3](#footnote3)</sup> | 1° |
 | SLANT RANGE MEASUREMENT RESOLUTION | 0.15 m |
-| NOMINAL SLANT RANGE MEASUREMENT ACCURACY<sup>[3](#footnote3)</sup><sup>,[6](#footnote6)</sup> | 0.1% |
+| DEPTH RESOLUTION OF RESPONDER-BEACONS | 1.4 m |
 | MAXIMUM DEVICE TILT RELATIVE TO THE VERTICAL COMPENSATED BY THE BUILT-IN INCLINOMETER (ROLL/PITCH) | +/- 30° |
 | OPERATING CONE (RELATIVE TO THE HORIZONTAL)<sup>[3](#footnote3)</sup> | 0 .. 85° |
 | CARRIER FREQUENCY | 20100 Hz |
@@ -77,11 +77,10 @@ _________
 | MAXIMUM NUMBER OF RESPONDER-BEACONS | 16 |
 
 ________________
-- <a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received, based on electro-acoustic parameters of the transmitter and receiver, spatial decrease in the intensity of sound energy, attenuation in the medium and the acoustic noise level.  
-- <a name="footnote2"><sup>2</sup></a> Excluding the weight of the converter and cable.  
-- <a name="footnote3"><sup>3</sup></a> The value was obtained in a laboratory static experiment, without taking into account the multipath propagation effect.  
-- <a name="footnote4"><sup>4</sup></a> With the station operating at 1 request per 3 seconds.  
-- <a name="footnote5"><sup>5</sup></a> Including the interface converter and extension cable up to the [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html) device. Optionally, the length can be increased up to 20 m.  
-- <a name="footnote6"><sup>6</sup></a> Provided that the correct value of the speed of sound is set in the system and the sound propagates along a path close to linear. In case of significant refraction, the measured range may be greater than the actual one because the acoustic signal propagates along a curved path. In most cases in real waters the specified value is maintained; in some difficult waters, degradation of accuracy up to 0.5% of the slant range was recorded.  
+<a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received, based on electro-acoustic parameters of the transmitter and receiver, spatial decrease in the intensity of sound energy, attenuation in the medium and the acoustic noise level.  
+<a name="footnote2"><sup>2</sup></a> Excluding the weight of the converter and cable.  
+<a name="footnote3"><sup>3</sup></a> The value was obtained in a laboratory static experiment, without taking into account the multipath propagation effect.  
+<a name="footnote4"><sup>4</sup></a> With the station operating at 1 request per 3 seconds.  
+<a name="footnote5"><sup>5</sup></a> Including the interface converter and extension cable up to the [VigilArc Deck](/documentation/EN/VigilArc/VigilArc_Deck_Specification_en.html) device. Optionally, the length can be increased up to 20 m.  
 
 <div style="page-break-after: always;"></div>

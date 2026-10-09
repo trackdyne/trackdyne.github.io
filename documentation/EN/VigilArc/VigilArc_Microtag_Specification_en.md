@@ -1,4 +1,4 @@
-[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **VigilArc Tag: Device specification**
+[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **VigilArc Microtag: Device specification**
 
 <details>
   <summary><b>ℹ Recommendations for printing / saving as PDF</b></summary>
@@ -15,25 +15,25 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.svg) | ![VigilArc Tag with battery pack](/documentation/vigilarc_tag_wbat.png) |
+| ![Trackdyne](/documentation/logo.svg) | <img width="229" height="399" alt="image" src="/documentation/vigilarc_microtag.png" /> |
 | :---: | ---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Tag** - **VigilArc USBL** responder-beacon <br/> Device specification |
+| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Microtag** - **VigilArc USBL** micro responder-beacon <br/> Device specification |
 
 ## KEY FEATURES
 
-* **Extremely small size and weight**
-* **Communication range up to 3000<sup>[1](#footnote1)</sup> m**
-* **Highly reliable digital underwater acoustic communication resistant to multipath propagation**
+* **The world's smallest responder-beacon**
+* **Communication range up to 1000<sup>[1](#footnote1)</sup> m**
+* **Reliable digital underwater acoustic communication resistant to multipath propagation**
 * **Code division multiple access - up to 16 isolating addresses**
-* **Low power consumption (Rx/Tx) 0.33/10 W**
+* **Low power consumption (Rx/Tx) 0.33/6 W**
 * **Built-in pressure/temperature sensor**
 * **Monoblock design**
 
 ## DESCRIPTION
 
-**VigilArc Tag** - responder-beacon of the ultra-short baseline navigation system [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html).  
+**VigilArc Microtag** - miniature version of the responder-beacon of the ultra-short baseline navigation system [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html).  
 
-The device is designed to be placed on an underwater object in order to determine the location of this object in real time using the direction-finding antenna [VigilArc Array](/documentation/EN/VigilArc/VigilArc_Array_Specification_en.html).
+The device is designed to be placed on the smallest underwater objects in order to determine their location in real time using the direction-finding antenna [VigilArc Array](/documentation/EN/VigilArc/VigilArc_Array_Specification_en.html).
 
 The device can be either standalone (with an additional battery pack) or interfaced with the carrier for power.
 
@@ -47,12 +47,12 @@ ________________
 
 | PARAMETER | VALUE |
 | :--- | :--- |
-| DIMENSIONS (Ø x h) | 64 x 62 mm |
-| WEIGHT (dry)<sup>[2](#footnote2)</sup> | 0.3 kg |
+| DIMENSIONS (Ø x h) | 41 x 45 mm |
+| WEIGHT (dry)<sup>[2](#footnote2)</sup> | 0.16 kg |
 | MAXIMUM DEPTH | 300 m |
 | DEPTH RESOLUTION | 0.6 m |
-| MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 3000 m |
-| ACOUSTIC SOURCE LEVEL | 170 dB re 1 μPa @ 1 m |
+| MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 1000 m |
+| ACOUSTIC SOURCE LEVEL | 169 dB re 1 μPa @ 1 m |
 | CARRIER FREQUENCY | 20100 Hz |
 | BUILT-IN TEMPERATURE SENSOR ACCURACY | 0.1°C |
 | SUPPLY VOLTAGE | 12 V |
@@ -62,7 +62,7 @@ ________________
 | MAXIMUM RELATIVE VELOCITY | ± 2 m/s |
 | STARTUP TIME | 100 ms |
 | OPERATING TEMPERATURE RANGE | -5 .. 50 °C |
-| POWER CONSUMPTION (Rx/Tx) | 0.33 / 10 W |
+| POWER CONSUMPTION (Rx/Tx) | 0.33 / 6 W |
 | INTERFACE | UART 9600 bit/s |
 | COMMUNICATION PROTOCOL | NMEA 0183 [PAZM](/documentation/EN/VigilArc/VigilArc_Protocol_Specification_en.html) |
 | CABLE LENGTH<sup>[4](#footnote4)</sup> | 0.5 m |

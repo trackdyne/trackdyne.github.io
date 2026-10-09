@@ -1,4 +1,4 @@
-[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **VigilArc Tag: Device specification**
+[Main](/) ❯ [Navigation & tracking systems](/navigation_and_tracking_systems_en.html) ❯ **VigilArc Tag 35: Device specification**
 
 <details>
   <summary><b>ℹ Recommendations for printing / saving as PDF</b></summary>
@@ -17,23 +17,24 @@
 
 | ![Trackdyne](/documentation/logo.svg) | ![VigilArc Tag with battery pack](/documentation/vigilarc_tag_wbat.png) |
 | :---: | ---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Tag** - **VigilArc USBL** responder-beacon <br/> Device specification |
+| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Tag 35** - **VigilArc USBL** responder-beacon <br/> Device specification |
 
 ## KEY FEATURES
 
 * **Extremely small size and weight**
-* **Communication range up to 3000<sup>[1](#footnote1)</sup> m**
+* **Immersion depth up to 350 m**
+* **Communication range up to 1000<sup>[1](#footnote1)</sup> m**
 * **Highly reliable digital underwater acoustic communication resistant to multipath propagation**
 * **Code division multiple access - up to 16 isolating addresses**
 * **Low power consumption (Rx/Tx) 0.33/10 W**
-* **Built-in pressure/temperature sensor**
+* **Protected built-in pressure/temperature sensor**
 * **Monoblock design**
 
 ## DESCRIPTION
 
-**VigilArc Tag** - responder-beacon of the ultra-short baseline navigation system [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html).  
+**VigilArc Tag 35** - responder-beacon of the ultra-short baseline navigation system [VigilArc USBL](/documentation/EN/VigilArc/VigilArc_DataBrief_en.html). The device has a maximum immersion depth increased to 350 m and a pressure sensor protected by a metal diaphragm.
 
-The device is designed to be placed on an underwater object in order to determine the location of this object in real time using the direction-finding antenna [VigilArc Array](/documentation/EN/VigilArc/VigilArc_Array_Specification_en.html).
+The device is designed to be placed on an underwater object in order to determine the location of this object in real time using the direction-finding antenna [VigilArc Array 35](/documentation/EN/VigilArc/VigilArc_Array_35_Specification_en.html).
 
 The device can be either standalone (with an additional battery pack) or interfaced with the carrier for power.
 
@@ -49,9 +50,9 @@ ________________
 | :--- | :--- |
 | DIMENSIONS (Ø x h) | 64 x 62 mm |
 | WEIGHT (dry)<sup>[2](#footnote2)</sup> | 0.3 kg |
-| MAXIMUM DEPTH | 300 m |
-| DEPTH RESOLUTION | 0.6 m |
-| MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 3000 m |
+| MAXIMUM DEPTH | 350 m |
+| DEPTH RESOLUTION | 1.4 m |
+| MAXIMUM ACOUSTIC COMMUNICATION RANGE<sup>[1](#footnote1)</sup> | 1000 m |
 | ACOUSTIC SOURCE LEVEL | 170 dB re 1 μPa @ 1 m |
 | CARRIER FREQUENCY | 20100 Hz |
 | BUILT-IN TEMPERATURE SENSOR ACCURACY | 0.1°C |
@@ -69,11 +70,11 @@ ________________
 | MAXIMUM NUMBER OF ADDRESSES | 16 |
 
 ________________
-- <a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received, based on electro-acoustic parameters of the transmitter and receiver, spatial decrease in the intensity of sound energy, attenuation in the medium and the acoustic noise level.  
-- <a name="footnote2"><sup>2</sup></a> Excluding the weight of the battery pack.
-- <a name="footnote3"><sup>3</sup></a> The value was obtained in a laboratory static experiment, without taking into account the multipath propagation effect.  
-- <a name="footnote4"><sup>4</sup></a> The value can be changed on request.  
-- <a name="footnote5"><sup>5</sup></a> Obtained in laboratory conditions in a static experiment.  
+<a name="footnote1"><sup>1</sup></a> A parameter that determines the maximum range at which a signal can be received, based on electro-acoustic parameters of the transmitter and receiver, spatial decrease in the intensity of sound energy, attenuation in the medium and the acoustic noise level.  
+<a name="footnote2"><sup>2</sup></a> Excluding the weight of the battery pack.  
+<a name="footnote3"><sup>3</sup></a> The value was obtained in a laboratory static experiment, without taking into account the multipath propagation effect.  
+<a name="footnote4"><sup>4</sup></a> The value can be changed on request.  
+<a name="footnote5"><sup>5</sup></a> Obtained in laboratory conditions in a static experiment.  
 
 <div style="page-break-after: always;"></div>
 
