@@ -1,157 +1,169 @@
-[Main](/) ❯ [Underwater acoustic modems](/underwater_acoustic_modems_en) ❯ **Instructions for firmware updating: Vexa family**
+[Main](/) ❯ [Underwater acoustic modems](/underwater_acoustic_modems_en.html) ❯ **Vexa Mini: Firmware update guide**
+
+<details>
+  <summary><b>ℹ Recommendations for printing / saving as PDF</b></summary>
+  <br>
+  <ol>
+    <li>Press <b>Ctrl+P</b> (macOS: <b>Cmd+P</b>)</li>
+    <li>Select <b>"Save as PDF"</b> (Microsoft Print to PDF) as the printer</li>
+    <li>In <b>"Pages"</b>, enter a range that excludes the first and the last page</li>
+    <li>Disable <b>headers and footers</b> (title, URL, page numbers)</li>
+    <li>In <b>Chrome/Edge</b>: More settings → "Margins" → <b>None</b> | in <b>Firefox</b>: "Margins & Header/Footer" → <b>None</b></li>
+    <li>Click <b>Print</b> and choose where to save the PDF</li>
+  </ol>
+</details>
 
 <div style="page-break-after: always;"></div>
 
 | ![Trackdyne](/documentation/logo.svg) | |
 | :---: | ---: |
-| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | Instructions for updating the firmware of Vexa Mini modems   |
+| [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | Firmware update guide for Vexa Mini modems  |
 
 <div style="page-break-after: always;"></div>
 
 # Updating the firmware of Vexa Mini modems
 
->We are constantly working to improve products, take into account the opinions and wishes of users and eliminate the identified shortcomings. Version history, new feature additions, and bug fixes can be found on the [Vexa Mini: Version and Changes History](Vexa_version_history_en.md) page.
+> We are constantly working to improve our products, taking into account the opinions and wishes of users and eliminating the shortcomings we find. You can find the version history, new features and bug fixes on the page [Vexa Mini: Version history & changes](/documentation/EN/Vexa/Vexa_version_history_en.html).
 
-## Step 1 
+## Step 1
 Download the necessary utilities.
 
-### Step 1.1 
-Get the modem host application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) to work with Vexa Mini modems. The application runs on a PC running Windows OS (Version 8 and above).
+### Step 1.1
+Get the modem host application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)) to work with Vexa Mini modems. The application runs on a PC under Windows OS (version 8 or later).
 
-### Step 1.2 
-Get the firmware update utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)). The utility works on a PC running OC Windows (Version 8 and higher).
+### Step 1.2
+Get the firmware update utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)). The utility runs on a PC under Windows OS (version 8 or later).
 
-### Step 1.3 
-Just unpack the downloaded archives into folders convenient for you. Both applications do not require installation.
+### Step 1.3
+Simply unpack the downloaded archives into folders of your choice. Neither application requires installation.
 
 ## Step 2
-Prepare everything to connect the modem to the PC.
+Prepare everything for connecting the modem to the PC.
 
-### Step 2.1 
-Connect your modem to the **UART<->USB** converter. The purpose of the cable cores by color is shown below:
+### Step 2.1
+Connect your modem to a **UART<->USB** converter. The wire assignment by color is shown below:  
 
 <table>
 <thead><tr><th align="center" markdown="span">![Vexa Mini_wiring_diagram_en](/documentation/Vexa_Mini_wiring_diagram_en.png)</th></tr></thead>
 <tbody>
-<tr><td align="center" markdown="span">Fig 1. Functions of cable cores</td></tr>
+<tr><td align="center" markdown="span">Figure 1. Cable wire assignment</td></tr>
 </tbody>
 </table>
 
 The voltage on the data lines **MUST NOT** exceed 3.3 V.
-For the initial switching of the modem to the command mode, it is necessary to provide for the possibility of tightening the SVC / CMD wire to a voltage of 3.3 or 5 Volts. It is convenient to do this with a jumper.
+To switch the modem to command mode initially, provide a means of pulling the SVC/CMD wire up to a voltage of 3.3 or 5 V. This is conveniently done with a jumper.
 
-### Step 2.2 
-Provide the ability to conveniently turn on and off the command mode according to the diagrams below.
+### Step 2.2
+Provide a convenient way of switching the command mode on and off, as shown in the diagrams below.
 
 <table>
 <thead><tr><th align="center" markdown="span">![vexa_mini_usb_cmd_mode_off](/documentation/vexa_mini_usb_cmd_mode_off.png)</th></tr></thead>
 <tbody>
-<tr><td align="center" markdown="span">Fig 2. Connecting a modem to a PC USB port using an interface converter. **Command mode OFF**</td></tr>
+<tr><td align="center" markdown="span">Figure 2. Connecting the modem to the PC USB port using an interface converter. **Command mode off**</td></tr>
 </tbody>
 </table>
 
 <table>
 <thead><tr><th align="center" markdown="span">![vexa_mini_usb_cmd_mode_on](/documentation/vexa_mini_usb_cmd_mode_on.png)</th></tr></thead>
 <tbody>
-<tr><td align="center" markdown="span">Fig 3. Connecting a modem to a PC USB port using an interface converter. **Command mode ON**</td></tr>
+<tr><td align="center" markdown="span">Figure 3. Connecting the modem to the PC USB port using an interface converter. **Command mode on**</td></tr>
 </tbody>
 </table>
 
-
 ## Step 3
-Connecting the device to the USB port of the PC.
+Connect the device to the PC USB port.
 
-### Step 3.1 
-Make sure that the command mode is not enabled (jumper removed, **SVC/CMD** wire pulled to GND- as shown in the diagram in Fig. 2).
+### Step 3.1
+Make sure that the command mode is not enabled (the jumper is removed, the **SVC/CMD** wire is pulled to ground - as shown in the diagram in Fig. 2)
 
-### Step 3.2 
-Connect the modem to the USB port of the PC using a converter:
+### Step 3.2
+Connect the modem to the PC USB port using the converter:
 
 <table>
 <thead><tr><th align="center" markdown="span">![vexa_mini_and_uart_usb_converter3](/documentation/vexa_mini_and_uart_usb_converter3.png)</th></tr></thead>
 <tbody>
-<tr><td align="center" markdown="span">Fig 4. Modem is connected to a PC</td></tr>
+<tr><td align="center" markdown="span">Figure 4. The modem is connected to the PC</td></tr>
 </tbody>
 </table>
 
 ## Step 4
-Enabling the **Command mode by default** setting.
+Enable the **Command mode by default** setting.
 
-### Step 4.1 
-Start the modem host application.
+### Step 4.1
+Launch the modem host application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
 
-### Step 4.2 
+### Step 4.2
 Press the **SETTINGS** button on the top toolbar.
 
-### Step 4.3 
-In the settings window that opens, select the desired port and click the **OK** button.
+### Step 4.3
+In the settings window that opens, select the required port and press the **OK** button.
 
 ### Step 4.4
-The application will prompt to restart it to apply the new settings - confirm by pressing the **OK** button.
+The application will prompt you to restart it to apply the new settings - confirm by pressing the **OK** button.
 
-### Step 4.5 
-After restarting the application, press the **CONNECT** button.
-If the application was able to successfully open the port, the **CONNECT** button will become highlighted and change its name to **DISCONNECT** and a corresponding message will be displayed in the **HISTORY WINDOW** text box.
+### Step 4.5
+After the application restarts, press the **CONNECT** button.
+If the application has successfully opened the port, the **CONNECT** button will become highlighted and change its name to **DISCONNECT**, and a corresponding message will be displayed in the **HISTORY WINDOW** text box.
 
-If any error occurs, check that the correct port has been selected and return to [Step 4.2](#step-42) if necessary.
+If any error occurs, make sure that the port has been selected correctly and, if necessary, return to [Step 4.2](#step-42).
 
 ### Step 4.6
 Press the **COMMAND MODE** button, thereby informing the application that you are going to work with the modem in command mode.
 
 ### Step 4.7
-Put the modem into command mode by pulling the **SVC/CMD** wire to 3.3 or 5 Volts.
+Put the modem into command mode by pulling the **SVC/CMD** wire up to 3.3 or 5 V.
 
 ### Step 4.8
-Press the **QUERY** button on the **DEVICE INFO** tab. If everything is done correctly, then in the **HISTORY WINDOW** windows and the text field on the **DEVICE INFO** tab, the corresponding information will be displayed.
+Press the **QUERY** button on the **DEVICE INFO** tab. If everything is done correctly, the corresponding information will be displayed in the **HISTORY WINDOW** and in the text field on the **DEVICE INFO** tab.
 
-Make sure the **Command mode by default** checkbox is checked. If not, install it and press the **APPLY** button to change the modem settings.
+Make sure that the **Command mode by default** checkbox is checked. If it is not, check it and press the **APPLY** button to change the modem settings.
 
-If it doesn't, close the port by pressing the **DISCONNECT** button and go to [Step 4.2](#step-42). If the port is selected correctly, make sure that the **SVC/CMD** wire was pulled to GND when power was supplied to the modem, i.e. go to [Step 3](#step-3).
+If this does not happen, close the port by pressing the **DISCONNECT** button and go to [Step 4.2](#step-42). If the port is selected correctly after all, make sure that the **SVC/CMD** wire was pulled to "ground" at the moment power was applied to the modem, i.e. go to [Step 3](#step-3).
 
 ### Step 4.9
-Close modem host application.
+Close the modem host application (available on request from [support@trackdyne.com](mailto:support@trackdyne.com))
 
 ### Step 4.10
-Pull the **SVC/CMD** conductor to the GND.
+Pull the **SVC/CMD** wire to "ground".
 
 ## Step 5
-Updating device firmware
+Updating the device firmware
 
 ### Step 5.1
-If you do not have a firmware file for this modem, please contact the [developer](mailto:support@trackdyne.com) for a firmware file. In the letter, place the serial number of the device:
+If you do not have a firmware file for this modem, contact [technical support](mailto:support@trackdyne.com) to obtain the firmware file. In the e-mail, state the serial number of the device:
 
 ### Step 5.2
-Start the firmware update utility.
+Launch the firmware update utility (available on request from [support@trackdyne.com](mailto:support@trackdyne.com)).
 
 ### Step 5.3
-Connect the modem to the PC via the interface converter as shown in [Step 3](#step-3), making sure the **SVC/CMD** wire is pulled to GND before connecting.
+Connect the modem to the PC via the interface converter, as shown in [Step 3](#step-3), making sure before connecting that the **SVC/CMD** wire is pulled to "ground".
 
 ### Step 5.4
-In the **Port** Combobox, select the appropriate port for the device.
+In the **Port** drop-down list, select the port corresponding to the device.
 
 ### Step 5.5
-Select the appropriate firmware file for the device by pressing the **Load** button.
+Select the firmware file corresponding to the device by pressing the **Load** button.
 
 ### Step 5.6
 Start the firmware update process by pressing the **Start** button.
 
-If:
-* port is correct
+If:  
+* the port is selected correctly
 * the firmware file corresponds to the serial number of the device
-* before powering up the device, the **SVC/CMD** wire was pulled to the GND
+* before power was applied to the device, the **SVC/CMD** wire was pulled to ground
 
-Then, the bottom text box will start to display the progress of the firmware update.
+Then the progress of the firmware update will start to be displayed in the bottom text field.
 
 ### Step 5.7
-Close the application and disconnect the modem from the PC. Update completed.
+Close the application and disconnect the modem from the PC. The update is complete.
 
-If the device firmware update fails, check the following reasons:
+If the device firmware update cannot be performed, check the following possible causes:
 
-* port selected incorrectly
-* the firmware file does not match the serial number of the device
-* before powering up the device, the **SVC/CMD** wire was not connected to GND
-* the connection was broken during the firmware update
+* the port was selected incorrectly
+* the firmware file does not correspond to the serial number of the device
+* before power was applied to the device, the **SVC/CMD** wire was not pulled to ground
+* the connection was interrupted during the firmware update
 
-If the update fails, [contact the developer](mailto:support@trackdyne.com)
+If the update cannot be performed, [contact technical support](mailto:support@trackdyne.com).
 
 <div style="page-break-after: always;"></div>
