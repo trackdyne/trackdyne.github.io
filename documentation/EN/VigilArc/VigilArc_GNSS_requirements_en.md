@@ -1,4 +1,4 @@
-| ![Trackdyne](/documentation/logo.png) |  |
+| ![Trackdyne](/documentation/logo.svg) |  |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc USBL**<br/> Compatibility Requirements for Heading and Positioning Systems |
 

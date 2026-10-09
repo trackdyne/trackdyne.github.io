@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![logo](/documentation/vigilarc_array.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![logo](/documentation/vigilarc_array.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **VigilArc Array** - **VigilArc USBL** direction finding antenna <br/> Device specification |
 

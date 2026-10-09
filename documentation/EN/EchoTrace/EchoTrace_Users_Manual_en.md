@@ -7,7 +7,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![EchoTrace](/documentation/echotrace_pack_small.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![EchoTrace](/documentation/echotrace_pack_small.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **EchoTrace** - Underwater acoustic tracking system <br/> User's manual |
 

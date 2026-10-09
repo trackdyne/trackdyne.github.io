@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![logo](/documentation/subvox_rf_dongle.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![logo](/documentation/subvox_rf_dongle.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **SubVox Radio dongle** - [SubVox Diver](SubVox_Diver_Specification_en.md) configuration tool <br/> Device specifications |
 

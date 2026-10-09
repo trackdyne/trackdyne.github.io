@@ -1,7 +1,7 @@
 [Main](/README.md) ❯ **Media**
 
 <p align="center" markdown="span">
-![Trackdyne](/documentation/logo.png)<br/>
+![Trackdyne](/documentation/logo.svg)<br/>
 [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com)
 </p>
 

@@ -2,7 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-| ![Trackdyne](/documentation/logo.png) | ![logo](/documentation/dev_big_wbat_li_small.png) |
+| ![Trackdyne](/documentation/logo.svg) | ![logo](/documentation/dev_big_wbat_li_small.png) |
 | :---: | ---: |
 | [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com) | **EchoTrace Pinger** - Pinger beacon <br/> Device specification |
 

@@ -1,7 +1,7 @@
 [Main](/README.md) ❯ [Our educational projects](/educational_projects_en) ❯ **Online utilities**
 
 <p align="center" markdown="span">
-![Trackdyne](/documentation/logo.png)<br/>
+![Trackdyne](/documentation/logo.svg)<br/>
 [trackdyne.com](https://trackdyne.com/) <br/> [support@trackdyne.com](mailto:support@trackdyne.com)
 </p>
 
